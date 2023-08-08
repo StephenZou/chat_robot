@@ -1,0 +1,2321 @@
+news PLAY O O B-datetime_date I-datetime_date O O O
+weather QUERY O O O O O O B-datetime_date I-datetime_date B-location_city I-location_city O O O O O
+lottery NUMBER_QUERY O B-name I-name I-name O O O O
+poetry QUERY O O B-dynasty O B-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName
+cookbook QUERY O B-ingredient I-ingredient O O O O
+map ROUTE O B-endLoc_city I-endLoc_city O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+translation TRANSLATION O O B-content I-content I-content I-content I-content
+app LAUNCH O O B-name I-name I-name I-name O O O O O O O
+health QUERY O O B-keyword I-keyword I-keyword O O O O
+video QUERY B-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name
+app LAUNCH O O B-name I-name I-name I-name
+map POSITION O O B-location_poi I-location_poi I-location_poi I-location_poi O O O
+stock QUERY B-name I-name I-name I-name O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content O B-target I-target O O O
+video QUERY O O O B-name I-name I-name I-name I-name
+website OPEN O O O O O O O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content B-target I-target O O O
+video QUERY B-timeDescr I-timeDescr B-category I-category
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+video QUERY O O O O O O O B-name I-name I-name I-name I-name I-name
+app DOWNLOAD O O B-name I-name O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+app LAUNCH O O B-name I-name I-name
+email REPLAY_ALL O O O O O O
+telephone DIAL O B-name I-name O O O
+telephone DIAL O O O B-category I-category B-name I-name O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+radio LAUNCH O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name O O O O
+video QUERY B-name I-name I-name I-name
+video QUERY O B-name I-name I-name I-name I-name
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+bus QUERY O O B-Src I-Src O B-Dest I-Dest O O O O O
+translation TRANSLATION B-content B-target I-target O O O
+music PLAY O O O B-song I-song I-song I-song O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+match QUERY B-category I-category O O B-type I-type O O O O O O O O
+map ROUTE O B-endLoc_city I-endLoc_city O O O O O O
+health QUERY B-keyword I-keyword I-keyword O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+email FORWARD O O O O O O
+novel QUERY O O O O B-name I-name I-name I-name I-name I-name O
+telephone DIAL O B-name I-name I-name O O O
+message SEND O O O O B-name I-name I-name
+bus QUERY O O O B-Src I-Src O B-Dest I-Dest O O O O
+app LAUNCH O O B-name I-name I-name I-name
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O
+message SEND O B-name I-name O O O
+cookbook QUERY O O B-utensil I-utensil B-dishName I-dishName I-dishName O O O O
+poetry QUERY O O O B-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O
+video QUERY B-name I-name I-name I-name
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O
+app QUERY O O O O B-name I-name I-name
+lottery NUMBER_QUERY O O O O O B-relIssue I-relIssue I-relIssue O B-name I-name I-name
+video QUERY B-name I-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name I-name
+message SENDCONTACTS O B-name I-name O O O O O B-receiver I-receiver I-receiver
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_area I-endLoc_area O O O O
+video QUERY O O O B-name I-name I-name B-category I-category
+riddle QUERY O O O B-category I-category O O O O O O O
+news PLAY O O B-datetime_date I-datetime_date O O O O O O O O O O O O
+flight QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+website OPEN O O O O O O B-name I-name I-name O
+cookbook QUERY O O B-dishName I-dishName I-dishName I-dishName O
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cinemas QUERY O O O O O O O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O
+video QUERY B-name I-name I-name I-name I-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name I-name I-name
+telephone DIAL O O O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_area I-endLoc_area O O O
+novel QUERY O O O B-category I-category I-category I-category O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName I-dishName
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword B-queryField I-queryField I-queryField O O O O
+train QUERY O O B-endLoc_city I-endLoc_city O B-category I-category O
+message SEND O B-name I-name I-name O O O O B-content I-content I-content I-content I-content I-content I-content
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+epg LOOK_BACK O O B-name I-name I-name I-name O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+video QUERY B-area I-area B-category I-category B-name I-name I-name I-name
+video QUERY O O B-category I-category B-name I-name
+epg QUERY O O O O O O O O O O O O B-name I-name I-name I-name
+news PLAY O O O O O B-category I-category O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content B-target I-target O O O
+cookbook QUERY O O B-ingredient I-ingredient O O O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword O
+news PLAY O O O O O O O
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName O
+app LAUNCH O O O O O O B-name
+stock QUERY B-name I-name I-name I-name O O
+news PLAY O O O B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O O
+map POSITION B-location_poi I-location_poi I-location_poi O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O O O O
+tvchannel PLAY B-name I-name I-name I-name O O
+map ROUTE O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-ingredient O O O
+cookbook QUERY O O O O B-dishName I-dishName I-dishName O O O O
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+radio LAUNCH O O O O O O B-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+poetry QUERY O O B-name I-name O O
+stock QUERY B-name I-name I-name I-name O O O O O O O
+epg QUERY B-name I-name I-name I-name I-name O O O O O O
+telephone DIAL O O O O B-name I-name
+message SEND O O O O O B-name I-name B-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content
+video QUERY O O O B-name I-name I-name I-name I-name
+app LAUNCH O O B-name I-name O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword I-keyword B-queryField I-queryField I-queryField O O O O
+app LAUNCH O O O O O O B-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel O O O O O
+poetry QUERY O O O O B-author I-author I-author O O O
+message SEND O O O O B-name I-name I-name I-name
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O
+message SENDCONTACTS O B-name I-name I-name O O O O B-receiver I-receiver I-receiver
+stock QUERY O O B-name I-name O O
+video QUERY B-name I-name I-name I-name I-name
+cookbook QUERY O O B-dishName I-dishName I-dishName I-dishName O O O O O
+news PLAY O O O O O O
+video QUERY O O B-timeDescr I-timeDescr O O O B-scoreDescr B-category I-category O O
+flight QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O
+map ROUTE B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+news PLAY O O O O O O O
+video QUERY O O B-name I-name I-name I-name B-season I-season I-season
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+video QUERY B-name I-name I-name
+music PLAY O B-song I-song I-song I-song O O O
+message SEND O B-name I-name O O O B-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+translation TRANSLATION B-content I-content B-target I-target O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O B-name I-name I-name I-name
+message SEND O O O O B-name I-name I-name O B-content I-content I-content
+telephone DIAL O O O O B-name I-name I-name
+poetry QUERY O O O B-author I-author O O O
+music PLAY O O O B-song I-song I-song I-song O O O O
+contacts QUERY O O B-name I-name I-name O O O
+message SEND O O O B-name I-name O O
+poetry QUERY O O B-author I-author O O O O
+news PLAY O O O O O O
+telephone DIAL O O O O O O B-name I-name
+map ROUTE O O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O O O
+tvchannel PLAY B-name I-name I-name I-name B-resolution I-resolution
+cookbook QUERY O B-dishName I-dishName O
+news PLAY O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+message SEND O B-name I-name O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName O O O O
+message SEND O O O O O O O
+poetry QUERY O O O O B-author I-author I-author O O O
+poetry QUERY O O O O B-author I-author O O O O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O O
+lottery QUERY O O O O O O
+video QUERY O B-name I-name I-name I-name B-episode I-episode I-episode
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword B-queryField I-queryField I-queryField O O
+poetry QUERY O O O B-name I-name B-author I-author I-author O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O B-name I-name I-name I-name
+telephone DIAL O O B-name I-name I-name I-name
+app LAUNCH O O O B-name I-name I-name I-name
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+map ROUTE O B-endLoc_province I-endLoc_province B-endLoc_city I-endLoc_city O O O
+poetry QUERY O O O B-author I-author I-author O O O
+music PLAY O O O O B-song I-song I-song I-song O O
+stock QUERY O O B-name I-name I-name I-name O O O
+match QUERY B-category I-category B-type I-type O
+poetry DEFAULT O O O O O O O
+poetry QUERY O O O O O O B-name I-name I-name O
+epg QUERY B-datetime_date I-datetime_date O O B-category I-category O O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O
+map POSITION O O O O O O B-location_poi I-location_poi I-location_poi I-location_poi
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+train QUERY O B-endLoc_city I-endLoc_city O O O
+epg QUERY O O O O O O B-category I-category
+message SENDCONTACTS O B-name I-name O O O O O O O B-receiver I-receiver
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+video QUERY B-name I-name I-name I-name I-name I-name I-name
+news PLAY B-datetime_date I-datetime_date O O O O O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O O O O O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName I-dishName I-dishName
+train QUERY O B-endLoc_city I-endLoc_city O O O O O
+email CREATE O O O O O O O O
+news PLAY O O B-datetime_date I-datetime_date O O O O O O
+cinemas QUERY O O O O O O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+video QUERY O B-name I-name I-name I-name O
+poetry QUERY O O O O O B-author I-author O O O O
+news PLAY B-datetime_date I-datetime_date B-location_city I-location_city O O O O O O
+message SEND O O O O B-name I-name I-name B-content I-content I-content I-content I-content I-content I-content I-content
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O O O
+message SEND O B-name I-name I-name O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+health QUERY O B-keyword I-keyword
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O
+app LAUNCH O O O O B-name I-name
+map POSITION B-location_province I-location_province O O O
+poetry DEFAULT O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+health QUERY B-keyword I-keyword I-keyword O
+video QUERY B-name I-name I-name I-name
+app LAUNCH O O B-name O O O O O O O
+video QUERY B-name I-name I-name I-name
+message SEND O O O O O B-name I-name I-name
+match QUERY B-category I-category O O O B-type I-type O
+video QUERY O O O O O O B-name I-name I-name I-name
+epg QUERY B-datetime_date I-datetime_date B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+stock QUERY B-name I-name I-name I-name O O O O
+poetry DEFAULT O O O O O O O O O O
+riddle QUERY O B-category I-category O O O O
+train QUERY O O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+stock QUERY B-name I-name I-name I-name O O O O
+video QUERY O O O B-name I-name I-name I-name O O O O O O
+music PLAY O O B-song I-song I-song I-song I-song I-song I-song
+radio LAUNCH O O O O O O O B-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O O O O O
+novel QUERY O O O O O O
+poetry QUERY O O B-author I-author O B-name I-name I-name O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+health QUERY O O O B-keyword I-keyword O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName B-ingredient O O O O O
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+poetry QUERY O O O B-author I-author I-author O O
+music PLAY O O O B-song I-song I-song I-song O
+train QUERY O O O O O O B-endLoc_city I-endLoc_city O B-category I-category O
+cinemas QUERY O O O O O O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName I-dishName O O O
+map ROUTE B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+health QUERY O O O O B-keyword I-keyword O O O O O O O O O
+website OPEN O O B-name I-name
+epg QUERY O O O O O B-name I-name I-name O O
+news PLAY O O O O O O O
+flight QUERY O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+poetry QUERY O O O B-name I-name I-name I-name O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+tvchannel PLAY B-name I-name I-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date I-datetime_date O O O B-name I-name I-name I-name O
+video QUERY B-scoreDescr I-scoreDescr O O O O O O O O B-category I-category
+news PLAY O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O B-name I-name I-name I-name I-name
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O B-category I-category
+health QUERY B-keyword I-keyword I-keyword I-keyword O
+train QUERY O O O O O O O
+video QUERY B-timeDescr I-timeDescr O O O B-popularity I-popularity B-category I-category
+map POSITION O O O O O O O O O
+website OPEN O B-name I-name I-name I-name
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+telephone DIAL O O O O B-name I-name
+telephone DIAL O B-name I-name O O
+poetry DEFAULT O O O O O O
+epg QUERY O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+translation TRANSLATION O O B-content I-content
+app QUERY O O B-name I-name O O
+cookbook QUERY B-dishName I-dishName O O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+message SEND O O O O O B-name I-name I-name I-name I-name O O B-content I-content I-content I-content I-content I-content
+epg QUERY B-tvchannel I-tvchannel I-tvchannel O O O
+poetry QUERY O O B-name I-name I-name O
+riddle QUERY O O B-category I-category O O O O
+cookbook QUERY B-ingredient I-ingredient O O O
+telephone DIAL O O O O B-name I-name I-name
+message SEND O B-name I-name O O O
+telephone DIAL O O O O B-name I-name
+contacts QUERY B-name I-name I-name I-name O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName
+epg QUERY B-name I-name I-name I-name O O O O O
+poetry QUERY O O O B-dynasty O O O
+health QUERY O O O O B-keyword I-keyword I-keyword I-keyword O O O
+tvchannel PLAY B-name I-name I-name I-name
+flight QUERY O O
+train QUERY O O O B-startLoc_city I-startLoc_city O O O O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+video QUERY O O B-date I-date O B-name I-name I-name I-name
+cookbook QUERY B-keyword I-keyword O O O O O O
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+bus QUERY O O B-Src I-Src O B-Dest I-Dest O O O O
+radio LAUNCH O O O O O O O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name
+match QUERY B-name I-name I-name I-name O O O O
+video QUERY O O O O O O O B-name I-name O O
+music PLAY O O O B-song I-song I-song I-song
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+epg QUERY O O O O O O B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O O O B-category I-category O
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi O O O
+riddle QUERY O O O O O B-category I-category O O
+music PLAY O O O O O O O O O O O
+video QUERY B-name I-name I-name I-name
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+email SEND O O O O O O B-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date I-datetime_date I-datetime_date O B-name I-name I-name I-name O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+news PLAY O O O O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O
+tvchannel PLAY B-name I-name I-name I-name
+message SEND O B-name I-name I-name O O O O
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O
+poetry QUERY O O O B-name I-name I-name O
+match QUERY B-datetime_date I-datetime_date I-datetime_date I-datetime_date B-name I-name I-name I-name O O O O O O O O O
+news PLAY O O O B-location_city I-location_city O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName I-dishName O O O O O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O O O O
+translation TRANSLATION B-content I-content I-content I-content B-target I-target O O O
+website OPEN O O B-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+video QUERY B-name I-name I-name I-name I-name B-episode I-episode I-episode I-episode
+poetry QUERY O O O O B-author I-author O O O
+app LAUNCH O O B-name I-name O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+news PLAY B-location_country I-location_country B-datetime_date I-datetime_date O O O O O
+tvchannel PLAY B-name I-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY B-ingredient I-ingredient O O O O
+health QUERY O O O O B-keyword I-keyword I-keyword O
+app LAUNCH O O O O B-name I-name I-name
+translation TRANSLATION O O O B-content I-content
+stock QUERY B-name I-name I-name I-name O O O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+website OPEN O B-name I-name I-name
+cookbook QUERY B-ingredient I-ingredient O O O O O
+cookbook QUERY B-dishName I-dishName O O O
+news PLAY O O O O O O O
+cinemas QUERY O O O O O O O O B-datetime_date I-datetime_date O O O O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cinemas QUERY O O O O O O O O O O
+epg LOOK_BACK B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+cookbook QUERY O O O O O O B-dishName I-dishName I-dishName O O O O O O
+video QUERY O O B-category I-category
+video QUERY B-name I-name I-name I-name
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+app LAUNCH O O B-name I-name I-name I-name
+tvchannel PLAY O B-name I-name I-name I-name
+health QUERY B-keyword I-keyword I-keyword O O O
+stock QUERY O O O O B-name I-name I-name I-name O O O
+novel QUERY O O B-name I-name I-name I-name I-name I-name I-name
+match QUERY B-name I-name I-name I-name B-category I-category I-category I-category O O O O O O
+translation TRANSLATION O O B-content I-content I-content I-content I-content I-content I-content I-content
+video QUERY B-name I-name B-category I-category
+cookbook QUERY B-ingredient I-ingredient O O O O
+tvchannel PLAY O O O O B-name I-name I-name I-name
+flight QUERY O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+epg QUERY B-datetime_time I-datetime_time O O O O O O O B-category I-category
+translation TRANSLATION B-content I-content O B-target I-target
+train QUERY O O O O O B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword O
+cookbook QUERY O O B-dishName I-dishName O O O O O O O
+video QUERY B-name I-name I-name B-season I-season I-season
+flight QUERY O B-endLoc_city I-endLoc_city O O O O O
+video QUERY B-name I-name I-name B-category I-category
+poetry QUERY O O O O B-dynasty O O O O O
+bus QUERY O O O B-Src I-Src I-Src O B-Dest I-Dest I-Dest O O O
+app LAUNCH O O B-name I-name I-name I-name I-name I-name
+contacts CREATE O O O O O O O O O B-name I-name O O O O B-code I-code I-code I-code I-code
+match QUERY B-category I-category O O B-type I-type O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword B-queryField I-queryField I-queryField O O O O
+riddle QUERY O O O B-category I-category O O O O
+cookbook QUERY O O O O O O B-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+message SEND O O O O B-name I-name
+video QUERY O O O B-artist I-artist I-artist I-artist I-artist I-artist O O B-category I-category
+website OPEN O O B-name I-name I-name I-name I-name O
+message SEND O B-name I-name O O O
+news PLAY O O O O O O O O O O
+video QUERY B-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name B-episode I-episode I-episode
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+message SEND O O O O B-name I-name
+bus QUERY O B-Src I-Src O B-Dest I-Dest I-Dest O O O O O
+video QUERY B-name I-name I-name I-name
+cookbook QUERY O O O O B-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+health QUERY B-keyword I-keyword O O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+music PLAY O O O B-song I-song I-song I-song I-song I-song
+video QUERY B-timeDescr I-timeDescr O O O B-scoreDescr I-scoreDescr O B-category I-category I-category I-category I-category B-tag I-tag O O
+website OPEN O O B-name I-name I-name I-name I-name
+music PLAY O O O B-song I-song I-song O O O
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city B-startDate_date I-startDate_date O O O
+tvchannel PLAY B-name I-name I-name I-name
+video QUERY B-artist I-artist O B-category I-category I-category
+music PLAY O O O B-song I-song I-song
+poetry QUERY B-author I-author B-name I-name I-name O
+cookbook QUERY O B-dishName I-dishName I-dishName I-dishName O O O O O O O
+cinemas QUERY O O O O O O O O O O O O O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+website OPEN B-name I-name I-name I-name I-name O O
+flight QUERY B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O
+music PLAY O O O B-song I-song
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+cookbook QUERY O O B-dishName I-dishName O
+tvchannel PLAY O O O B-name I-name I-name I-name
+music PLAY O O O B-song I-song O O O
+riddle QUERY O O O B-category I-category O O O
+cookbook QUERY O O O O B-dishName I-dishName I-dishName O O O O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+website OPEN O O B-name I-name I-name I-name I-name I-name I-name I-name I-name
+health QUERY O O O O O B-keyword I-keyword I-keyword O O O O O
+video QUERY B-name I-name I-name I-name I-name
+novel QUERY O O B-popularity I-popularity O O O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName O O O O
+video QUERY B-name I-name
+riddle QUERY O O O O O B-category I-category O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+poetry QUERY O O O O O O B-author I-author I-author O O O
+email LAUNCH O O O O O
+cookbook QUERY B-dishName I-dishName O O O O O
+radio LAUNCH O O O O O O O O O B-name I-name I-name I-name I-name I-name
+news PLAY O O B-keyword I-keyword O O
+email SEND O O O O B-name I-name O B-content I-content I-content I-content I-content I-content I-content
+stock QUERY O O O O O B-name I-name I-name I-name O O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName O O O
+message SEND O B-name I-name O O O O O B-content I-content I-content I-content
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+video QUERY O O O O O B-scoreDescr I-scoreDescr O B-category I-category I-category O
+stock QUERY B-name I-name I-name I-name O O O O O O O
+video QUERY B-name I-name I-name I-name I-name
+message SEND O B-name I-name I-name O O O
+message SEND O B-name I-name I-name O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O
+telephone DIAL O O O
+music PLAY O O O B-song I-song O
+telephone DIAL O B-name I-name O O O
+map POSITION B-location_city I-location_city O O
+video QUERY B-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName I-dishName O O O O
+telephone DIAL O O O O B-name I-name I-name
+stock QUERY B-name I-name I-name O O
+cinemas QUERY O O O O O O O O
+epg QUERY O O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel O B-category I-category O
+video QUERY B-tag I-tag B-category
+news PLAY O O O O O O O
+poetry QUERY O O O O O B-name I-name I-name O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O B-category I-category I-category O
+email CREATE O O O O O O O
+message SENDCONTACTS O B-name I-name O O O O O O O O B-receiver I-receiver I-receiver I-receiver
+app DOWNLOAD O O B-name I-name
+map POSITION O O O O O O O
+tvchannel PLAY O O B-name I-name I-name I-name I-name I-name I-name I-name
+translation TRANSLATION O B-content I-content I-content O O O O O
+video QUERY B-name I-name B-category I-category I-category
+cookbook QUERY O B-ingredient O O O O
+video QUERY B-name I-name I-name I-name
+website OPEN B-name I-name I-name I-name
+cookbook QUERY B-ingredient O O O O O O O
+cookbook QUERY O O B-utensil I-utensil I-utensil O O B-dishName I-dishName I-dishName I-dishName O
+news PLAY O O O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O O O
+radio LAUNCH O O O O B-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name O O
+website OPEN O O B-name I-name O
+video QUERY O B-artist I-artist B-tag I-tag I-tag
+stock QUERY B-name I-name I-name I-name O O
+map ROUTE O O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O O
+riddle QUERY O O O O B-category I-category O
+tvchannel PLAY B-name I-name I-name I-name
+website OPEN O O B-name I-name I-name I-name I-name I-name
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O O O
+message SEND O O O O B-name I-name I-name O
+app QUERY O O O O B-name I-name I-name I-name
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+app LAUNCH B-name I-name I-name
+flight QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+app LAUNCH O O B-name I-name I-name I-name
+news PLAY O O B-category I-category O O O
+weather QUERY B-datetime_date I-datetime_date B-questionWord B-subfocus O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+epg LOOK_BACK O O O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel
+stock QUERY B-name I-name I-name I-name O O O
+email REPLAY_ALL O O O O O O O
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+video QUERY O O O B-artist I-artist I-artist O B-category I-category
+poetry QUERY O O O O B-name I-name O
+cinemas QUERY B-theatre I-theatre I-theatre I-theatre I-theatre O O O O O O O
+cookbook QUERY O B-ingredient O O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+novel QUERY O O O B-category I-category I-category I-category O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY O B-dishName I-dishName I-dishName O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+epg QUERY O O O O O O O O O O O O O O O O B-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName
+app LAUNCH O O B-name I-name
+cookbook QUERY O B-dishName I-dishName I-dishName O O O O
+telephone DIAL O O O O B-name I-name
+news PLAY O O B-datetime_date I-datetime_date O O O O
+tvchannel PLAY O O B-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+health QUERY B-keyword I-keyword
+email CREATE O O O O O O O
+video QUERY B-name I-name I-name
+video QUERY B-name I-name I-name I-name
+poetry QUERY B-name I-name I-name I-name I-name I-name I-name I-name B-author I-author O
+train QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+lottery NUMBER_QUERY O O O B-name I-name I-name O O O
+news PLAY O O B-category I-category O O O
+news PLAY O O O B-datetime_date I-datetime_date O O O O
+stock QUERY B-name I-name I-name I-name O O O O O
+tvchannel PLAY B-name I-name I-name
+map ROUTE B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+message SEND O B-name I-name O O O
+app LAUNCH O O B-name I-name I-name I-name I-name I-name
+message SEND O B-name I-name I-name O O O B-content I-content I-content I-content I-content I-content
+app LAUNCH O O B-name I-name I-name
+music PLAY O O O O O O O O
+video QUERY O O O B-name I-name I-name I-name I-name I-name B-category I-category
+novel QUERY O O O O O O O O O
+news PLAY O O O O O O O O
+telephone DIAL O O O O B-name I-name I-name
+message SEND O B-name I-name O O O B-content I-content I-content I-content
+epg QUERY B-datetime_time I-datetime_time O O O O O B-category I-category O O
+website OPEN O O O O B-name I-name O
+video QUERY O O O B-name I-name I-name I-name O
+health QUERY B-keyword I-keyword O O O O
+epg QUERY B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O B-name I-name I-name I-name I-name O O
+video QUERY O O B-name I-name I-name I-name
+poetry QUERY O O O O O B-name I-name I-name O
+lottery NUMBER_QUERY O O O B-datetime_date I-datetime_date I-datetime_date O O O B-name I-name I-name
+video QUERY O O O O O B-name I-name I-name I-name
+stock QUERY O O O O B-code I-code
+flight QUERY O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+tvchannel PLAY B-name I-name I-name
+video QUERY B-area I-area B-tag I-tag B-category I-category
+cookbook QUERY O B-dishName I-dishName I-dishName O O O O
+poetry QUERY O O O B-dynasty O O
+stock RISERATE_QUERY B-name I-name I-name I-name O O O O O O O
+tvchannel PLAY O B-name I-name I-name I-name
+video QUERY B-scoreDescr I-scoreDescr O B-tag I-tag B-category I-category
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O B-datetime_date I-datetime_date I-datetime_date O B-name I-name I-name
+poetry QUERY O O O B-dynasty O O
+match QUERY B-name I-name I-name I-name O O O O
+news PLAY B-datetime_date I-datetime_date O O O O O O O
+cookbook QUERY O O O O B-ingredient I-ingredient O O O O
+tvchannel PLAY O O O B-name I-name I-name
+music SEARCH O O O O O O O B-song I-song I-song
+health QUERY B-keyword I-keyword O O O
+poetry QUERY O O O O B-name I-name O
+video QUERY B-name I-name I-name I-name
+novel QUERY B-category I-category O O O B-name I-name I-name I-name O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O
+poetry QUERY O O O B-author I-author O O O
+telephone DIAL O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O O
+video QUERY B-name I-name I-name I-name I-name I-name I-name I-name
+video QUERY O O B-category I-category O O
+poetry DEFAULT O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+poetry QUERY O B-dynasty O B-author I-author B-name I-name I-name
+novel QUERY O O O B-category I-category I-category I-category O O
+telephone DIAL O O O O B-name I-name
+map POSITION O O B-location_poi I-location_poi I-location_poi I-location_poi I-location_poi I-location_poi O O O
+cookbook QUERY O B-dishName I-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+news PLAY O O O O B-datetime_date I-datetime_date O B-category I-category O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O
+app LAUNCH B-name I-name I-name I-name O O
+map ROUTE O O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+app LAUNCH O O O O B-name I-name
+message SEND O B-name I-name O O O
+radio LAUNCH O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O
+riddle QUERY O O O O B-category I-category O
+telephone DIAL O O O O B-name I-name I-name
+tvchannel PLAY B-resolution I-resolution B-name I-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name
+telephone QUERY B-name I-name O O O O O O
+stock QUERY B-name I-name I-name I-name O O O
+cinemas QUERY O O O O O B-category I-category O O O
+video QUERY B-name I-name I-name B-resolution I-resolution
+cookbook QUERY O O B-ingredient I-ingredient O O O O
+tvchannel PLAY O O B-name I-name I-name I-name O O O
+stock RISERATE_QUERY B-name I-name I-name I-name O O O O O O O
+music PLAY O O O B-song I-song I-song I-song I-song O
+music SEARCH O O O O B-song I-song
+cookbook QUERY B-dishName I-dishName O O O O O O O
+news PLAY O O O O O O O O
+email SEND O O O
+news PLAY B-datetime_date I-datetime_date B-location_city I-location_city O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O
+map POSITION B-location_area I-location_area I-location_area O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O O
+train QUERY B-startLoc_province I-startLoc_province B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+video QUERY B-name I-name I-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name
+poetry QUERY O O O B-author I-author O O O
+health QUERY B-keyword I-keyword O O O O
+tvchannel PLAY O O O O B-name I-name I-name I-name
+map ROUTE O B-endLoc_area I-endLoc_area I-endLoc_area O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+riddle QUERY O O O O B-category I-category O O
+app LAUNCH O O B-name I-name O
+map POSITION O O O O O B-location_poi I-location_poi I-location_poi I-location_poi O O
+music PLAY O O O B-song I-song O O O
+video QUERY O O O B-name I-name I-name O
+telephone DIAL O O B-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+email REPLAY_ALL O O O O O O
+video QUERY B-name I-name I-name I-name I-name I-name I-name
+novel QUERY O O O B-category I-category O O B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName O O O
+health QUERY B-keyword I-keyword O O O O O O
+poetry QUERY O O O O O B-dynasty O B-name I-name O
+flight QUERY O O O O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+stock QUERY B-name I-name I-name I-name O O O
+flight QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY O O B-ingredient O O O O
+video QUERY B-name I-name I-name
+cookbook QUERY O O O B-dishName I-dishName I-dishName O O
+music PLAY O O O O B-category I-category O O O
+video QUERY O O O O O O O B-name I-name I-name I-name
+video QUERY B-tag I-tag B-category I-category
+epg QUERY B-name I-name I-name I-name I-name O O O O O O
+riddle QUERY O O O B-category I-category O O O O O O
+stock QUERY B-name I-name I-name I-name O O O O
+email REPLY O O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+poetry QUERY O O O B-author I-author I-author O O O
+cookbook QUERY B-dishNamet I-dishNamet I-dishNamet O O O O
+message SEND O B-name I-name O O O
+epg QUERY O O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel O B-name I-name I-name I-name I-name I-name O
+tvchannel PLAY B-name I-name I-name I-name
+cinemas QUERY O O B-theatre I-theatre I-theatre I-theatre I-theatre O O O O O O O
+train QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+website OPEN O O B-name I-name I-name O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O
+epg LOOK_BACK O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name I-name
+epg QUERY O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O O O
+cinemas QUERY O O O O O B-timeDescr O O O
+flight QUERY O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient I-ingredient O O O O
+message SEND O O O O B-name I-name I-name
+video QUERY B-name I-name I-name I-name I-name
+map ROUTE O B-endLoc_poi I-endLoc_poi
+news PLAY B-location_city I-location_city O O
+cookbook QUERY O O B-ingredient I-ingredient O O O O
+poetry QUERY O O O O B-name I-name I-name O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+telephone DIAL O O O O B-name I-name
+music SEARCH O O B-category I-category I-category I-category I-category
+weather QUERY O B-questionWord I-questionWord I-questionWord O B-subfocus
+stock QUERY O O B-name I-name O O O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword I-keyword
+website OPEN O O B-name I-name I-name I-name
+website OPEN O O B-name I-name I-name O O
+novel QUERY O O O B-category I-category I-category I-category O O
+app QUERY O O O O B-name I-name
+health QUERY B-keyword I-keyword I-keyword I-keyword I-keyword O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O
+email FORWARD O O O O O O O O O
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O
+music PLAY O O O B-song I-song
+stock QUERY O O B-name I-name I-name I-name O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name I-name
+poetry QUERY O O B-name I-name O
+health QUERY B-keyword I-keyword O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content O B-target I-target O O O
+tvchannel PLAY B-resolution I-resolution B-name I-name
+telephone DIAL O O O O B-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel O O O O
+cinemas QUERY O O O O O O O
+message SEND O O O O B-name I-name O B-content I-content I-content I-content I-content I-content I-content
+radio LAUNCH O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY B-ingredient O O O O
+news PLAY O O O O O O O O O
+health QUERY B-keyword I-keyword O O O O
+poetry QUERY O O O O B-dynasty O O O O O
+video QUERY O O B-area I-area B-category I-category
+news PLAY B-datetime_date I-datetime_date B-location_city I-location_city O O O O O
+video QUERY O B-category I-category O
+music PLAY O O O B-artist I-artist I-artist O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O O O B-receiver I-receiver I-receiver
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O O
+video QUERY O O O B-name I-name I-name
+stock QUERY O O B-name I-name I-name I-name O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O B-name I-name I-name I-name I-name O O
+video QUERY B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY B-ingredient I-ingredient O O O O
+health QUERY B-keyword I-keyword O O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+video QUERY O O O B-name I-name I-name I-name
+story QUERY B-category I-category I-category
+poetry QUERY O O O O B-author I-author I-author O O O
+cookbook QUERY O B-dishName I-dishName I-dishName O
+epg QUERY B-datetime_date B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword O
+telephone DIAL O O O O B-name I-name
+epg QUERY O O O O B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O B-name I-name I-name I-name
+poetry QUERY O O O B-name I-name O
+email REPLAY_ALL O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+stock QUERY O O B-name I-name I-name I-name O O O
+video QUERY B-name I-name I-name I-name O B-category I-category
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O
+stock QUERY O O B-name I-name O O
+flight QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver I-receiver
+music PLAY O O O O O O O O
+cookbook QUERY O B-dishName I-dishName O O O O
+video QUERY B-tag I-tag B-category
+stock QUERY O O B-name I-name I-name O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver
+tvchannel PLAY B-name I-name I-name
+translation TRANSLATION B-content I-content I-content I-content I-content I-content O B-target I-target O O O
+music SEARCH O O O O O B-song I-song I-song I-song
+video QUERY B-tag I-tag B-category I-category
+email LAUNCH O O O O O O
+health QUERY B-keyword I-keyword O O O O O
+novel QUERY B-category B-name I-name O O O
+epg QUERY B-datetime_date I-datetime_date B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O
+message SEND O B-name I-name O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+app QUERY O O B-name I-name I-name I-name O O
+cookbook QUERY O O B-dishName I-dishName O
+website OPEN O O O B-name I-name
+novel QUERY O O O O O O O O O
+video QUERY O O O O O B-name I-name I-name I-name
+radio LAUNCH O O O O B-name I-name I-name I-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name I-name I-name
+riddle QUERY O O O B-category I-category O O
+map ROUTE O O O B-endLoc_area I-endLoc_area
+video QUERY B-name I-name I-name I-name
+epg QUERY O O O O B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O B-name I-name I-name I-name I-name B-code O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O O
+train QUERY O O O B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O O O O O O O O
+telephone QUERY O O B-name I-name I-name O O O
+video QUERY B-name I-name I-name I-name
+health QUERY B-keyword I-keyword O O O O
+message SEND O B-name I-name O O O O O
+stock QUERY B-name I-name I-name I-name O O
+news PLAY O O O O O O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+poetry QUERY B-author I-author I-author O O O
+epg QUERY B-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O B-name I-name I-name I-name I-name O
+health QUERY B-keyword I-keyword I-keyword I-keyword O O O O O O O
+message SEND O O O O O B-name I-name I-name
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+video QUERY O O O O O B-popularity O B-category I-category
+music PLAY O O O B-song I-song I-song I-song I-song
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName O O O O
+tvchannel PLAY B-name I-name
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O O
+telephone DIAL O O O O B-name I-name I-name
+tvchannel PLAY B-name I-name I-name I-name I-name I-name
+video QUERY O O O B-category I-category B-name I-name I-name I-name
+app LAUNCH O O B-name I-name I-name
+poetry QUERY O O O B-name I-name I-name O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+music PLAY O O O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver I-receiver
+translation TRANSLATION B-content I-content O B-target I-target O O O
+poetry QUERY O O O O O O B-name I-name O
+tvchannel PLAY O O O O O B-name I-name I-name I-name
+tvchannel PLAY B-resolution I-resolution B-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O
+stock QUERY O O B-name I-name O O O O O
+novel QUERY B-author I-author I-author O B-category I-category O O O B-name I-name I-name I-name I-name I-name O
+app QUERY O O O B-name I-name
+flight QUERY O O O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+video QUERY O O O O B-category I-category I-category
+telephone DIAL O B-name I-name O O O
+cookbook QUERY O O O O O O O O O B-keyword I-keyword I-keyword O
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O
+poetry QUERY O O O B-dynasty O O O O O
+video QUERY O O O O B-category I-category O
+radio LAUNCH O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY O O O O O O O O B-dishName I-dishName I-dishName I-dishName O O O O
+video QUERY B-name I-name I-name
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword I-keyword B-queryField I-queryField I-queryField O O O O
+music PLAY B-song I-song I-song I-song I-song O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+news PLAY O O O B-datetime_date I-datetime_date O O O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver I-receiver
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+epg QUERY B-datetime_time I-datetime_time O O O O O O B-category I-category I-category O O
+video QUERY B-name I-name B-episode I-episode I-episode
+tvchannel PLAY B-name I-name I-name I-name I-name
+translation TRANSLATION O O B-content I-content I-content I-content I-content
+cookbook QUERY O O O O O O O O O B-dishName I-dishName I-dishName I-dishName I-dishName O O O O O O
+map ROUTE O B-startLoc_city I-startLoc_city I-startLoc_city O B-endLoc_province I-endLoc_province I-endLoc_province B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+tvchannel PLAY B-name I-name I-name I-name I-name B-resolution I-resolution
+poetry QUERY O O O B-author I-author I-author I-author O O O
+video QUERY B-tag I-tag B-category I-category I-category
+telephone DIAL O B-name I-name I-name O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+joke nan O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+stock QUERY O O O O B-name I-name I-name I-name O O O
+cookbook QUERY O O O O O O B-dishName I-dishName I-dishName O O O
+poetry QUERY O O O B-name I-name O
+email LAUNCH O O O O O
+bus QUERY O B-Src I-Src I-Src O B-Dest I-Dest I-Dest O O O O
+message SEND O O O O B-name I-name
+epg QUERY O O O B-datetime_date I-datetime_date O O B-name I-name I-name I-name
+news PLAY O O O O B-datetime_date I-datetime_date O O O O
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName I-dishName O
+video QUERY B-name I-name
+cookbook QUERY O O O B-dishName I-dishName I-dishName O O O
+cinemas QUERY O O B-theatre I-theatre I-theatre I-theatre I-theatre I-theatre I-theatre O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-category I-category I-category
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+match QUERY B-datetime_date I-datetime_date B-category I-category I-category I-category I-category I-category O B-name I-name I-name I-name O O O O O
+video QUERY O O B-name I-name I-name
+app LAUNCH O O O O O B-name
+cinemas QUERY O O O O B-theatre I-theatre I-theatre I-theatre I-theatre I-theatre I-theatre O O O O O O O
+website OPEN B-name I-name I-name I-name I-name
+poetry QUERY O O O O B-name I-name O
+map ROUTE B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+translation TRANSLATION O O B-content I-content I-content I-content
+cookbook QUERY B-ingredient I-ingredient O O O O O O
+lottery NUMBER_QUERY B-name I-name I-name O O O O O
+cookbook QUERY O O O B-dishName I-dishName
+radio LAUNCH O O O O O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O O
+map POSITION B-location_poi I-location_poi I-location_poi O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+telephone DIAL O O B-name I-name
+telephone DIAL O O B-name I-name
+bus QUERY O B-Src I-Src O B-Dest I-Dest O O O
+stock QUERY B-name I-name I-name I-name O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+health QUERY O O O O B-keyword I-keyword I-keyword O
+news PLAY O O O B-datetime_date I-datetime_date O O O O O O
+video QUERY O O O O O B-category I-category
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O O O
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi O O O O
+message SEND O O O O B-name I-name O B-content I-content I-content I-content I-content I-content I-content
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+news PLAY B-media I-media I-media I-media O O O
+health QUERY O O O O B-keyword I-keyword O
+poetry QUERY O O O O B-dynasty O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+website OPEN O O O O B-name I-name
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+stock CLOSEPRICE_QUERY B-name I-name O O B-yesterday I-yesterday O O O
+website OPEN O O B-name I-name
+health QUERY B-keyword I-keyword I-keyword O O O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O O
+map ROUTE O O O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O O O O O O
+cookbook QUERY B-dishName I-dishName O
+map ROUTE O O O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+music PLAY O O O B-song I-song I-song I-song
+cookbook QUERY O O B-dishName I-dishName I-dishName O
+video QUERY B-name I-name I-name I-name
+telephone DIAL O O O O B-name I-name I-name
+poetry QUERY O O O B-author I-author I-author O O
+map POSITION O O O O O O O O O O
+music PLAY O O O O B-song I-song I-song I-song
+health QUERY B-keyword I-keyword I-keyword I-keyword O O O O O O O
+map POSITION B-location_city I-location_city B-location_poi I-location_poi O O O
+lottery NUMBER_QUERY B-name I-name I-name
+video QUERY B-name I-name B-episode I-episode I-episode I-episode
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city
+health QUERY O O O O B-keyword I-keyword I-keyword I-keyword
+cookbook QUERY B-ingredient I-ingredient O O O O
+news PLAY O O O B-media I-media O O
+train QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_area I-endLoc_area O O O
+match QUERY O O O B-name I-name I-name I-name O O O O
+novel QUERY B-author I-author I-author B-name I-name I-name I-name I-name I-name I-name O O
+poetry QUERY O O O O B-dynasty O O
+map ROUTE B-endLoc_area I-endLoc_area O O O O
+lottery NUMBER_QUERY O O O O O B-datetime_date I-datetime_date O O O B-name I-name I-name
+video QUERY B-name I-name I-name
+flight QUERY O O O O O B-startLoc_city I-startLoc_city O O B-endLoc_city I-endLoc_city O O O
+tvchannel PLAY B-name I-name I-name I-name
+message SEND O B-name I-name I-name O O O
+cookbook QUERY B-dishName I-dishName O
+map ROUTE O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+video QUERY B-name I-name I-name I-name
+health QUERY B-keyword I-keyword O O O
+epg QUERY O O O B-datetime_time I-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O O
+health QUERY B-keyword I-keyword O O O O O
+flight QUERY O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+tvchannel PLAY B-name I-name I-name I-name
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+website OPEN O O O O O O O O O
+bus QUERY O B-Src I-Src O B-Dest I-Dest O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content O B-target I-target O O O
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi O O O
+health QUERY B-keyword I-keyword I-keyword O O O O O O O
+lottery NUMBER_QUERY O O O O O B-datetime_date I-datetime_date I-datetime_date I-datetime_date I-datetime_date I-datetime_date O O O B-name I-name I-name O O O O
+cookbook QUERY O B-dishName I-dishName I-dishName O O O O
+tvchannel PLAY B-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+contacts CREATE O O O O O O O O O B-name I-name I-name O O O B-code I-code I-code I-code I-code
+tvchannel PLAY B-name I-name I-name
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+news PLAY O O O O O O O O B-datetime_date I-datetime_date O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O
+map ROUTE O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+match QUERY B-name I-name I-name I-name O B-datetime_date I-datetime_date I-datetime_date I-datetime_date O O O O O O O O O O
+translation TRANSLATION B-content O B-target I-target O O O O
+contacts CREATE O O O O O B-code I-code I-code I-code I-code
+video QUERY B-name I-name I-name I-name
+riddle QUERY O O O O O B-category I-category O
+map ROUTE B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+poetry QUERY O O B-dynasty O O O O O
+website OPEN O O B-name I-name I-name
+music PLAY O O O O O O O
+video QUERY B-scoreDescr I-scoreDescr B-tag I-tag I-tag I-tag
+message SEND O B-name O O O
+cookbook QUERY O O B-ingredient O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+radio LAUNCH O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+app LAUNCH B-name I-name I-name
+cookbook QUERY O O B-dishName I-dishName O O O O O
+stock QUERY B-name I-name I-name I-name O O O O O
+flight QUERY O O O B-startDate_date I-startDate_date I-startDate_date B-startDate_time I-startDate_time B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver
+music PLAY O O O O B-artist I-artist I-artist O O O
+stock QUERY B-name I-name I-name I-name O O O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+map ROUTE O B-startLoc_poi I-startLoc_poi I-startLoc_poi I-startLoc_poi O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel O O O O O O
+poetry DEFAULT O O O O O O O O O
+video QUERY B-datetime_date I-datetime_date I-datetime_date O B-category I-category I-category
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+map ROUTE O B-startLoc_poi I-startLoc_poi I-startLoc_poi O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+poetry QUERY O O B-name I-name O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+bus QUERY O O O O O B-Src I-Src O B-Dest I-Dest O O O O
+map ROUTE O B-startLoc_city I-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+video QUERY B-name I-name
+telephone DIAL O O O O B-name I-name B-teleOperator I-teleOperator
+tvchannel PLAY B-name I-name I-name I-name B-resolution I-resolution
+video QUERY B-area I-area B-category I-category B-name I-name I-name I-name
+video QUERY O O O B-artist I-artist I-artist B-artistRole I-artistRole O B-popularity I-popularity B-category I-category
+music PLAY O O O O O O O O
+tvchannel PLAY B-name I-name I-name
+poetry QUERY O O B-name I-name O
+train QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+novel QUERY O O O O O O O O O O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+cookbook QUERY B-ingredient I-ingredient O O O
+weather QUERY B-datetime_date I-datetime_date B-subfocus I-subfocus O O O
+match QUERY B-name I-name I-name I-name B-datetime_date I-datetime_date I-datetime_date I-datetime_date O O O O O
+message SEND O B-name I-name I-name O O O
+map POSITION B-location_area I-location_area B-location_poi I-location_poi I-location_poi O O O
+epg QUERY B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O B-name I-name I-name I-name
+cookbook QUERY O O O B-ingredient O O
+telephone DIAL O O O O B-name I-name
+health QUERY O O B-keyword I-keyword I-keyword O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+news PLAY O O B-keyword I-keyword O O O
+poetry QUERY O O O O B-name I-name I-name O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+health QUERY B-keyword I-keyword I-keyword O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+poetry QUERY O O O B-dynasty O O
+stock QUERY O O B-name I-name I-name I-name O O O
+flight QUERY B-startLoc_city I-startLoc_city O O B-endLoc_city I-endLoc_city O O O
+news PLAY O O O O O O B-datetime_date I-datetime_date O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+poetry QUERY O O O B-author I-author I-author O B-name I-name I-name
+telephone DIAL O O B-name I-name
+website OPEN B-name I-name I-name I-name
+translation TRANSLATION B-content I-content I-content I-content B-target I-target O O O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+telephone DIAL O O B-name I-name I-name
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O
+video QUERY B-name I-name I-name I-name I-name I-name I-name
+epg QUERY B-datetime_date I-datetime_date B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O B-name I-name I-name I-name I-name O
+video QUERY B-category I-category I-category B-name I-name I-name
+cinemas QUERY O O O O O O O O O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+stock QUERY O O B-name I-name I-name I-name O O O O O
+tvchannel PLAY B-name I-name I-name I-name
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O B-startDate_date I-startDate_date O
+tvchannel PLAY B-resolution I-resolution B-name I-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY O O B-dishName I-dishName O O O
+cookbook QUERY O O B-ingredient I-ingredient O O O O O
+news PLAY O O O O B-datetime_date I-datetime_date O B-keyword I-keyword I-keyword O O
+health QUERY O O B-keyword I-keyword I-keyword O O O
+app LAUNCH O O B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName B-ingredient O O O O
+video QUERY O O B-name I-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name
+music PLAY O O O B-artist I-artist I-artist O B-song I-song I-song
+app LAUNCH B-name I-name
+map POSITION O O B-location_poi I-location_poi I-location_poi I-location_poi O O
+health QUERY B-keyword I-keyword I-keyword I-keyword I-keyword O O O O
+epg QUERY B-category I-category O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword O O O O O
+tvchannel PLAY B-name I-name I-name I-name I-name I-name
+riddle QUERY O O O O B-category I-category O
+tvchannel PLAY B-name I-name I-name I-name I-name
+poetry QUERY O O O O B-dynasty O
+website OPEN O O O O B-name I-name I-name I-name
+poetry QUERY O O B-author I-author O O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+poetry QUERY B-author I-author I-author O O O O
+riddle QUERY O O O O O O O O O O B-category I-category O O
+cookbook QUERY O O B-ingredient I-ingredient O O O O
+train QUERY B-startDate_date I-startDate_date O O O O B-endLoc_city I-endLoc_city O
+telephone DIAL O O O O B-name I-name I-name
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O O O O O O
+poetry QUERY O O B-dynasty O O
+translation TRANSLATION B-content I-content B-target I-target O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name I-name I-name
+cookbook QUERY O O O B-ingredient I-ingredient
+health QUERY B-keyword I-keyword I-keyword O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O
+map ROUTE O B-endLoc_area I-endLoc_area O O O
+stock QUERY O O O B-name I-name I-name I-name O O O
+cookbook QUERY B-ingredient O O O O O O O
+app LAUNCH B-name I-name I-name I-name
+telephone DIAL O B-name I-name I-name O O O
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O O O O O O O O
+video QUERY B-name I-name I-name I-name
+cinemas QUERY O O O B-film I-film I-film I-film I-film I-film I-film O
+cookbook QUERY O O O O O O O B-dishName I-dishName I-dishName I-dishName O O O O O O
+translation TRANSLATION B-content I-content I-content I-content O B-target I-target O O O
+radio LAUNCH O O B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+video QUERY B-area I-area B-category I-category B-name I-name I-name I-name I-name I-name I-name I-name
+match QUERY O O B-category I-category O O O O O O O O
+map ROUTE O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+video QUERY O O O O O B-category I-category
+video QUERY O O O O O O B-name I-name I-name I-name I-name I-name I-name
+stock QUERY B-name I-name I-name I-name O O O O O O O O
+video QUERY B-tag I-tag B-category B-name I-name I-name I-name I-name I-name
+stock RISERATE_QUERY B-name I-name I-name I-name O O O O O O O
+website OPEN O O B-name I-name O O
+stock QUERY O O B-name I-name I-name I-name O O O
+health QUERY B-keyword I-keyword I-keyword O O O O O
+message SEND O B-name I-name O O O
+website OPEN O O O B-name I-name I-name
+music SEARCH O O O B-category I-category O O
+stock RISERATE_QUERY O O B-code I-code O O O O O O O O
+website OPEN B-name I-name I-name I-name I-name
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+cinemas QUERY O O O O O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+music PLAY B-artist I-artist B-song I-song O
+video QUERY B-datetime_date I-datetime_date B-artist I-artist I-artist B-artistRole I-artistRole O B-scoreDescr I-scoreDescr O B-category I-category
+music PLAY O O B-song I-song I-song I-song I-song I-song O O O
+flight QUERY B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY O B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O
+video QUERY B-name I-name I-name I-name I-name
+train QUERY O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city B-category I-category O O O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+message SENDCONTACTS O B-name I-name O O O O O B-receiver I-receiver
+tvchannel PLAY B-name I-name I-name I-name I-name
+health QUERY B-keyword I-keyword O
+video QUERY O O O B-name I-name I-name
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi I-location_poi O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+app LAUNCH O O B-name O O
+radio LAUNCH O O O O O B-code B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+telephone DIAL O O O O O B-name I-name I-name
+message SEND O B-name I-name O O O
+music SEARCH O O O O O B-artist I-artist I-artist O O
+health QUERY B-keyword I-keyword I-keyword O O O O
+poetry QUERY O B-author I-author O B-name I-name
+news PLAY O O B-keyword I-keyword I-keyword O O O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+telephone DIAL O O O O B-name I-name
+app LAUNCH O O O B-name I-name
+train QUERY O O O O O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+news PLAY O O O B-datetime_date I-datetime_date O O O O
+epg QUERY B-datetime_time I-datetime_time O O O B-category I-category O
+translation TRANSLATION O O B-content I-content I-content I-content I-content
+email CREATE O O O O O O O
+map ROUTE O O O O O B-endLoc_province I-endLoc_province B-endLoc_poi I-endLoc_poi O O
+news PLAY O O O O O O O O B-keyword I-keyword I-keyword O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+cookbook QUERY O O O O O B-dishName I-dishName O O O O O O
+stock QUERY B-name I-name O O O O O
+video QUERY B-category I-category B-name I-name I-name I-name
+cookbook QUERY O O B-ingredient I-ingredient O O O
+news PLAY B-location_city I-location_city I-location_city B-datetime_date I-datetime_date O O O O O
+website OPEN O O B-name I-name I-name I-name
+translation TRANSLATION B-content I-content I-content I-content O B-target I-target O O O
+novel QUERY O O B-author I-author O B-category I-category O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+message SENDCONTACTS O B-name I-name I-name O B-category I-category O O O O B-receiver I-receiver
+music PLAY O O O O O B-song I-song I-song O
+tvchannel PLAY B-category I-category O O
+poetry DEFAULT O O O O O O
+map ROUTE B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O
+message SEND O O O O B-name I-name
+video QUERY B-artist I-artist I-artist B-artistRole I-artistRole O O B-category I-category
+video QUERY O O O B-tag I-tag B-category I-category
+cinemas QUERY O O O O O O O O O O O O O O
+message SEND O O O O O B-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+stock QUERY B-name I-name I-name I-name O O
+video QUERY B-tag I-tag B-category I-category
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+lottery NUMBER_QUERY B-relIssue I-relIssue I-relIssue B-name I-name I-name O O O O O O O O O
+translation TRANSLATION B-content O B-target I-target O O O
+health QUERY B-keyword I-keyword O O O O
+video QUERY B-name I-name I-name I-name
+message SEND O O O O B-name B-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content
+cookbook QUERY B-dishName I-dishName
+video QUERY O O B-artist I-artist I-artist B-artistRole I-artistRole O B-category I-category
+health QUERY B-keyword I-keyword I-keyword O O O O O
+map ROUTE O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O B-type I-type I-type O O O
+cookbook QUERY O O B-ingredient I-ingredient O O O
+news PLAY O O B-datetime_date I-datetime_date O O O O
+health QUERY B-keyword I-keyword I-keyword O O O O
+app LAUNCH O O B-name
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+video QUERY O B-tag I-tag I-tag I-tag
+telephone DIAL O O O O B-name I-name I-name
+website OPEN O O B-name I-name I-name O O
+news PLAY O O O O O O O
+message SEND O B-name I-name O O O
+map ROUTE O B-endLoc_area I-endLoc_area O O O
+health QUERY B-keyword I-keyword I-keyword
+cookbook QUERY O B-ingredient I-ingredient O O O O O
+map POSITION B-location_city I-location_city O B-location_poi I-location_poi I-location_poi O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+match QUERY B-category I-category O O B-type I-type O
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+flight QUERY O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName O O O
+train QUERY O O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O
+website OPEN O O B-name I-name I-name I-name O O
+stock QUERY B-name I-name I-name I-name I-name I-name O O O
+poetry QUERY O O B-author I-author O O O
+cookbook QUERY O O O B-ingredient I-ingredient O O O O
+video QUERY B-artist I-artist I-artist B-artistRole I-artistRole O B-timeDescr I-timeDescr I-tag O O B-category I-category
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi
+cookbook QUERY O B-dishName I-dishName O O O O O O O
+news PLAY O O O B-datetime_time I-datetime_time O B-keyword I-keyword O O O O O O
+cinemas QUERY O O B-theatre I-theatre I-theatre I-theatre I-theatre O O O O O O
+flight QUERY B-startDate_dateOrig I-startDate_dateOrig O B-endLoc_city I-endLoc_city O O O O O O
+train QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+match QUERY O O O O O B-category I-category O O O O O O O O O O
+telephone DIAL O O B-name I-name I-name
+music PLAY O O B-song I-song I-song
+message SENDCONTACTS O B-name I-name O O O O O O O B-receiver I-receiver I-receiver
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date I-datetime_date I-datetime_date B-datetime_time I-datetime_time I-datetime_time I-datetime_time I-datetime_time O O O O
+telephone DIAL O O O O O B-name I-name I-name
+video QUERY B-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name
+poetry QUERY O O B-name I-name I-name O
+cookbook QUERY B-keyword I-keyword I-keyword I-keyword O O O O
+cookbook QUERY O O O O B-dishName I-dishName I-dishName I-dishName I-dishName O O O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver I-receiver
+radio LAUNCH O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY O O B-ingredient O O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city I-endLoc_city O O
+map ROUTE B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O O O O O
+translation TRANSLATION B-content O B-target I-target O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+music PLAY O O O B-song I-song I-song I-song I-song O
+video QUERY O B-name I-name B-category I-category
+message SEND O O O O B-name I-name
+website OPEN B-name I-name I-name
+translation TRANSLATION B-content I-content I-content I-content O B-target I-target O O O
+cookbook QUERY O O O B-keyword I-keyword I-keyword I-keyword O
+radio LAUNCH O O O O O O O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+telephone QUERY B-name I-name O O O O O O
+novel QUERY O O O O O B-name I-name I-name I-name O O O
+cookbook QUERY B-ingredient I-ingredient O O O
+app LAUNCH B-name I-name
+translation TRANSLATION O O O O O O B-content I-content
+radio LAUNCH B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name
+poetry QUERY B-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O
+stock QUERY B-name I-name I-name I-name O O O O O
+telephone DIAL O O O O B-name I-name
+cookbook QUERY O O O O O O B-dishName I-dishName I-dishName I-dishName O
+epg QUERY B-datetime_date I-datetime_date O B-name I-name I-name
+video QUERY O O O O B-name I-name I-name I-name
+website OPEN O O O O O O
+translation TRANSLATION B-content I-content I-content B-target I-target O O O
+train QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+news PLAY O O O O B-datetime_date I-datetime_date O O O O
+email LAUNCH O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O O O
+app LAUNCH O O B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+video QUERY B-name I-name I-name I-name
+health QUERY B-keyword I-keyword O
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi I-location_poi O O
+poetry DEFAULT O O O O O O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+stock QUERY B-name I-name I-name I-name O O O
+app LAUNCH B-name I-name
+flight QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city B-startDate_date I-startDate_date O O O
+poetry QUERY O O O O O O B-author I-author O O O O O O
+website OPEN O O B-name I-name I-name I-name I-name O O O O O O
+epg QUERY O O B-datetime_date I-datetime_date O O O O O O B-category I-category O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O O O O O
+health QUERY B-keyword I-keyword O
+novel QUERY O O O B-category I-category I-category I-category O O
+train QUERY B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi I-location_poi I-location_poi O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+music PLAY O O O O B-song I-song I-song
+email CREATE O O O O O O O O
+stock QUERY B-name I-name I-name I-name O O O O O
+message SEND O B-name I-name I-name O O O
+epg QUERY O O O O O O O O O
+match QUERY B-datetime_date I-datetime_date I-datetime_date I-datetime_date B-category I-category I-category I-category I-category I-category I-category I-category O O O O O O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+flight QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O
+health QUERY B-keyword I-keyword O O O O O
+riddle QUERY O O O B-category I-category O O O O O O
+cookbook QUERY O B-dishName I-dishName O O O O
+poetry QUERY O O O O O O B-author I-author O B-name I-name I-name O
+app LAUNCH B-name I-name I-name I-name I-name
+video QUERY B-datetime_date I-datetime_date B-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name I-name
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O O O
+message SEND O B-name I-name O O O
+app LAUNCH O O O B-name
+tvchannel PLAY B-name I-name I-name
+flight QUERY O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+tvchannel PLAY O O O B-name I-name I-name I-name
+message SENDCONTACTS O B-name I-name O O O O O O O B-receiver I-receiver
+flight QUERY B-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName O
+video QUERY O O B-name I-name
+video QUERY B-tag I-tag O B-category I-category I-category
+health QUERY B-keyword I-keyword I-keyword O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+music PLAY B-artist I-artist B-song I-song I-song I-song
+email REPLAY_ALL O O O O O O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+telephone DIAL O B-name I-name O O O
+stock QUERY B-name I-name I-name I-name O O O O O O
+novel QUERY O O O B-category I-category I-category I-category O O
+website OPEN B-name I-name I-name
+music PLAY O O O B-song I-song I-song I-song I-song
+match QUERY B-name I-name I-name I-name O O O O O O
+health QUERY B-keyword I-keyword I-keyword O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+telephone DIAL O O O O B-name I-name I-name
+telephone QUERY B-name I-name O O O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+video QUERY O O B-name I-name I-name
+poetry QUERY O O O O O B-name I-name O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+riddle QUERY O O B-category I-category O O O O
+tvchannel PLAY O O B-name I-name I-name I-name
+translation TRANSLATION B-content I-content I-content O O O B-target I-target
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O O O
+app LAUNCH O O B-name O O O O
+video QUERY B-name I-name I-name I-name I-name O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY O O B-ingredient O O O O
+poetry QUERY B-author I-author O O O
+music PLAY B-artist I-artist O O O
+telephone DIAL O O O O B-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+news PLAY O O O O O O O O
+poetry QUERY O O O O B-name I-name I-name I-name O
+music PLAY O O O B-song I-song I-song O
+riddle QUERY O O B-category I-category O O O O O
+poetry QUERY O O O O B-name I-name O
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+flight QUERY O B-endLoc_city I-endLoc_city O O O
+stock QUERY O O B-name I-name I-name I-name O O O O O
+epg QUERY O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O
+app LAUNCH O O B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O
+map ROUTE O O O B-endLoc_area I-endLoc_area O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+health QUERY O O O O B-keyword I-keyword
+telephone DIAL O O O B-name I-name
+news PLAY B-location_city I-location_city O O O
+tvchannel PLAY O O O B-name I-name I-name I-name
+tvchannel PLAY B-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O O O O O O O O O
+app LAUNCH O O O B-name O
+translation TRANSLATION B-content I-content B-target I-target O O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+riddle QUERY O O O B-category I-category O
+news PLAY O O O O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+poetry QUERY O O B-name I-name
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+website OPEN O O B-name I-name I-name I-name O O
+novel QUERY O O O B-category I-category O O
+message SEND O O O O B-name I-name I-name O O B-content I-content I-content I-content I-content
+music PLAY O O O O O B-song I-song I-song I-song I-song O
+message SEND O O O O B-name I-name I-name
+video QUERY B-area I-area B-artist I-artist I-artist B-artistRole I-artistRole O B-tag I-tag B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-category I-category O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O O
+map ROUTE O O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+health QUERY B-keyword I-keyword O O O O O
+flight QUERY O O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O O B-endLoc_city I-endLoc_city O O O O O O O O O O O O O
+video QUERY O O B-datetime_date I-datetime_date B-tag I-tag B-category I-category
+cookbook QUERY O O O B-dishName I-dishName
+music PLAY O O O B-song I-song O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+stock RISERATE_QUERY O O B-name O O O O O O O O
+cinemas QUERY O O O O O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content O B-target I-target O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+stock RISERATE_QUERY B-name I-name I-name I-name O O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+novel QUERY O O O B-category I-category I-category I-category O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O O
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O
+poetry QUERY O B-name I-name O O O O
+novel QUERY O O O B-author I-author I-author O O O B-name I-name
+video QUERY O B-name I-name I-name
+website OPEN O B-name I-name O O
+music PLAY O O O B-artist I-artist I-artist O B-song I-song O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+app LAUNCH O O B-name I-name O O O
+stock QUERY B-name I-name I-name I-name O O O O O O
+health QUERY O O B-keyword I-keyword O O O O
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O O O O
+news PLAY B-location_city I-location_city B-datetime_date I-datetime_date O O O
+contacts nan O O B-name I-name I-name
+novel QUERY O O B-name I-name I-name I-name
+message SEND O O O O B-name I-name B-content I-content I-content I-content I-content I-content
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O
+cookbook QUERY B-dishName I-dishName
+flight QUERY B-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+train QUERY O O O O O O B-endLoc_city I-endLoc_city O B-category I-category O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date I-startDate_date I-startDate_date B-startLoc_city I-startLoc_city B-startLoc_poi I-startLoc_poi O B-endLoc_city I-endLoc_city O O O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+tvchannel PLAY O O O O O O O B-name I-name I-name I-name
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+cookbook QUERY O O O O B-ingredient O O O O O O
+cookbook QUERY O B-ingredient I-ingredient O O O O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+video QUERY B-name I-name I-name I-name I-name
+map POSITION O O O B-location_poi I-location_poi I-location_poi I-location_poi I-location_poi I-location_poi O O O O
+telephone DIAL O O O O B-name I-name
+cookbook QUERY O O B-ingredient I-ingredient I-ingredient O O O O
+health QUERY B-keyword I-keyword I-keyword O
+telephone DIAL O B-name I-name I-name O O O
+match QUERY O O B-category I-category O O O
+music PLAY O O O B-category I-category O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+epg QUERY B-name I-name I-name I-name B-tvchannel I-tvchannel I-tvchannel O O O O
+tvchannel PLAY B-name I-name I-name I-name I-name
+news PLAY B-location_city I-location_city O O O
+map ROUTE B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city
+news PLAY O O B-media I-media B-category I-category O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O O O O O
+video QUERY B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+poetry QUERY O O O O B-name I-name O
+music PLAY O O O O O B-song I-song I-song I-song O O O O
+stock QUERY O O B-name I-name I-name I-name O O
+map ROUTE O O O O B-startLoc_city I-startLoc_city O B-endLoc_province I-endLoc_province B-endLoc_area I-endLoc_area I-endLoc_area O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city I-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+website OPEN O O O O B-name I-name O O O
+app LAUNCH B-name I-name I-name I-name
+riddle QUERY B-category I-category O O
+cinemas QUERY O O O O O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O
+telephone DIAL O O O O B-name I-name I-name
+tvchannel PLAY O O O B-name I-name I-name I-name I-name I-name I-name
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O O O
+telephone DIAL O O O O B-name I-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name
+cookbook QUERY O O O O O O B-dishName I-dishName I-dishName I-dishName O
+epg QUERY O O O B-tvchannel I-tvchannel B-datetime_date I-datetime_date I-datetime_date I-datetime_date O O B-name I-name I-name I-name I-name I-name I-name O
+music PLAY O O O O O O O
+weather QUERY B-location_city I-location_city B-datetime_date I-datetime_date O B-subfocus I-subfocus O O
+message SEND O B-name I-name O O O
+video QUERY O O O O B-category I-category
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O O
+news PLAY O O O O B-keyword I-keyword I-keyword O O O O
+bus QUERY O B-Src I-Src O B-Dest I-Dest O O O O
+tvchannel PLAY O O B-name I-name I-name I-name
+cookbook QUERY O O B-ingredient I-ingredient O O O O
+app QUERY O O B-name I-name
+website OPEN O O B-name I-name O O O O
+map ROUTE O O O B-endLoc_city I-endLoc_city
+message SEND O B-name I-name I-name O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName B-ingredient O O O O
+tvchannel PLAY B-name I-name I-name
+video QUERY O O O B-name I-name I-name
+poetry QUERY O O O O O B-author I-author O O O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword O O O O O O O
+match QUERY B-name I-name I-name I-name B-type I-type O O O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName O O O O
+telephone DIAL O O O O B-name I-name I-name
+stock QUERY O O B-name I-name I-name I-name O O
+cinemas QUERY O O O O O O O O O O O O O
+music PLAY O O B-song I-song I-song I-song I-song O
+poetry QUERY O O B-author I-author I-author I-author O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O
+health QUERY B-keyword I-keyword O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+news PLAY O O O O O O
+cookbook QUERY O O O O B-dishName I-dishName I-dishName I-dishName O O O O
+novel QUERY O O O B-category I-category I-category I-category O O
+cookbook QUERY O O O B-ingredient I-ingredient I-ingredient O O O O O O
+news PLAY B-category I-category O O O
+flight QUERY B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+message SENDCONTACTS O B-name I-name O O O O O B-receiver I-receiver
+cookbook QUERY O B-dishName I-dishName I-dishName
+poetry QUERY O O O B-dynasty O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O O
+map ROUTE O B-endLoc_city I-endLoc_city B-endLoc_area I-endLoc_area O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O O O O O O O O O O
+translation TRANSLATION O O B-content
+novel QUERY O O O B-popularity I-popularity O B-category I-category O O
+video QUERY B-name I-name I-name
+video QUERY O O O B-name I-name I-name I-name I-name
+map POSITION O O O O O B-location_city I-location_city O B-location_poi I-location_poi I-location_poi O O O
+lottery NUMBER_QUERY O O B-name I-name I-name O O O O O O O O O
+flight QUERY O O O B-startDate_date I-startDate_date B-startDate_time I-startDate_time O O O
+lottery NUMBER_QUERY O O O O O B-name I-name I-name O O O O
+telephone DIAL O B-name I-name I-name O O O
+translation TRANSLATION O O B-content I-content
+health QUERY O O B-keyword I-keyword I-keyword O O O O
+music PLAY O O B-song I-song I-song I-song
+cookbook QUERY O B-dishName I-dishName I-dishName I-dishName I-dishName O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName
+cookbook QUERY B-ingredient I-ingredient O O O
+map ROUTE O B-startLoc_poi I-startLoc_poi I-startLoc_poi I-startLoc_poi I-startLoc_poi O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+map POSITION B-location_province I-location_province B-location_city I-location_city O O O
+stock QUERY O O O O B-name I-name I-name I-name O O O
+poetry QUERY O O B-name I-name O
+match QUERY B-category I-category O O O O B-type I-type O O O O O
+music PLAY O O O B-song I-song I-song O O
+poetry QUERY O O O O B-author I-author O O O O
+news PLAY B-datetime_date I-datetime_date O B-location_city I-location_city O O
+cinemas DATE_QUERY B-name I-name I-name I-name I-name O O O O O O
+message SEND O B-name I-name O O O O B-content I-content I-content I-content I-content I-content
+translation TRANSLATION O O B-content I-content
+message SEND O B-name I-name I-name O O O
+video QUERY O O B-category I-category B-name I-name
+translation TRANSLATION B-content I-content O B-target I-target O O O
+video QUERY B-name I-name
+novel QUERY O O O B-author I-author I-author I-author O O B-category I-category O O B-name I-name I-name I-name
+cinemas QUERY B-datetime_date I-datetime_date O O O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+riddle QUERY O O B-category I-category
+message VIEW O O O O O
+video QUERY B-artist I-artist I-artist O B-name I-name I-name
+news PLAY B-datetime_date I-datetime_date O O O B-category I-category O O
+train QUERY B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY O O O B-ingredient I-ingredient O O O O O O O O O O O O O
+stock RISERATE_QUERY B-name I-name I-name I-name O O O O O O O
+music PLAY B-artist I-artist I-artist O O
+health QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword
+telephone DIAL O O O O B-name I-name I-name
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city B-endLoc_area I-endLoc_area O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+radio LAUNCH O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name
+website OPEN O O O O B-name I-name I-name I-name
+cookbook QUERY B-ingredient I-ingredient O O O O O O O
+epg QUERY O O O B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+stock RISERATE_QUERY O O O B-name I-name I-name I-name O O O O O O
+message SEND O O O O B-name I-name O B-content I-content I-content I-content I-content
+news PLAY O O O O O O O O O
+app QUERY O O B-name I-name I-name I-name
+message SEND O O O O O B-name I-name
+cookbook QUERY B-dishName I-dishName O
+telephone DIAL O O O O B-name I-name I-name I-name
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O B-category I-category O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+train QUERY O O O O O B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O
+video QUERY B-name I-name I-name I-name I-name I-name
+news PLAY O O O B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+radio LAUNCH O O B-location_province I-location_province B-name I-name I-name I-name O
+radio LAUNCH B-name I-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+telephone DIAL O O O B-name I-name I-name
+health QUERY B-keyword I-keyword I-keyword I-keyword
+match QUERY B-category I-category O O O B-type I-type O
+poetry DEFAULT O O O O O O O O O
+translation TRANSLATION B-content I-content I-content B-target I-target O O O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O O
+video QUERY O B-name I-name I-name I-name
+train QUERY O O O O O O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY O B-dishName I-dishName O O O O
+telephone DIAL O O B-name I-name I-name O O O
+flight QUERY B-startDate_date I-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city O O B-endLoc_city I-endLoc_city O O O
+news PLAY O O O O O O B-datetime_date I-datetime_date O O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O O O
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O
+translation TRANSLATION O O B-content I-content I-content I-content I-content
+music PLAY O O B-artist I-artist I-artist O B-song I-song
+flight QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+novel QUERY B-author I-author I-author O B-category I-category O O O B-name I-name I-name O
+flight QUERY O O O O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+flight QUERY O O O B-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city I-startDate_time I-startDate_time I-startDate_time O O O O O B-endLoc_city I-endLoc_city B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+health QUERY O O O O O O O O O O O O B-keyword I-keyword O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content O B-target I-target O O O
+health QUERY B-keyword I-keyword O O O O O
+stock QUERY B-name I-name I-name I-name O O O O O
+poetry QUERY O O B-author I-author O B-name I-name I-name O
+cookbook QUERY O B-dishName I-dishName I-dishName I-dishName I-dishName O O O O O O O
+music PLAY O O B-artist I-artist O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName O O O O O
+message SEND O O O O O
+map POSITION B-location_province I-location_province I-location_province B-location_area I-location_area O O O
+tvchannel PLAY B-name I-name I-name B-resolution I-resolution
+app LAUNCH B-name I-name I-name I-name
+poetry QUERY O O B-author I-author O O B-name I-name I-name O
+flight QUERY O O O B-startDate_date I-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY O O O B-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+poetry QUERY B-author I-author O B-name I-name I-name O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+epg QUERY O O O B-datetime_date I-datetime_date B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel O O O B-name I-name I-name O
+weather QUERY O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+radio LAUNCH O B-name I-name I-name I-name I-name I-name O
+app LAUNCH B-name I-name
+music PLAY O O O B-song I-song I-song
+message SEND O O O B-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O
+website OPEN O O O O O B-name I-name I-name
+cookbook QUERY O O O B-dishName I-dishName I-dishName O O
+novel QUERY O B-name I-name I-name I-name
+news PLAY O O O B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O
+message SEND O B-name I-name I-name O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+epg QUERY O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O O O O
+video QUERY B-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name
+email LAUNCH O O O O O O O
+message SEND O O O O O B-name I-name
+epg QUERY B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O O O
+telephone DIAL O O O O B-name I-name
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-ingredient I-ingredient O O O O O O
+video QUERY O B-datetime_date I-datetime_date I-datetime_date O B-name I-name I-name I-name I-name I-name
+epg QUERY B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+telephone QUERY O B-name I-name I-name O O O
+cinemas QUERY O O B-theatre I-theatre I-theatre I-theatre I-theatre O O O O O
+contacts QUERY O O B-name I-name O O O
+cookbook QUERY O O B-dishName O O O O
+video QUERY O O O B-category I-category B-name I-name
+riddle QUERY O O B-category I-category O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+epg QUERY B-datetime_date I-datetime_date B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O
+lottery NUMBER_QUERY O O O O O B-name I-name I-name
+poetry DEFAULT O O O O O O
+video QUERY O O O B-artist I-artist B-artistRole I-artistRole O B-category I-category
+cookbook QUERY O O O B-dishName O O O
+map ROUTE B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city I-endLoc_city
+poetry QUERY O O O B-dynasty O O
+app LAUNCH O O O O B-name I-name
+message SEND O B-name I-name O O O O O O B-content I-content I-content I-content I-content I-content
+riddle QUERY B-category I-category I-category I-category O
+message SEND O B-name I-name I-name O O O
+novel QUERY O O B-category I-category O O B-name I-name O O O
+app QUERY O O B-name I-name I-name I-name
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+poetry QUERY B-author I-author I-author O O O B-name I-name O
+website OPEN O O O O B-name I-name
+map ROUTE B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city
+message SEND O O O O B-name I-name
+music PLAY O O O B-song I-song I-song O
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi
+cookbook QUERY B-keyword I-keyword I-keyword I-keyword O
+poetry QUERY O O O O O O B-author I-author I-author O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O
+message SEND O B-name I-name I-name O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+news PLAY O O O B-category I-category O O O
+translation TRANSLATION B-content I-content I-content I-content I-content B-target I-target O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName
+tvchannel PLAY O O B-name I-name I-name I-name
+riddle QUERY O O B-category I-category O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O
+map ROUTE B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+match QUERY B-datetime_date I-datetime_date B-name I-name O O B-type I-type O O O O
+cinemas QUERY B-datetime_time I-datetime_time O O O O O O O O O O
+app QUERY O B-name I-name I-name I-name I-name
+message SEND O B-name I-name I-name O O O
+epg QUERY B-datetime_time I-datetime_time O O O O O O B-category I-category I-category
+message SEND O B-name I-name O O O
+epg QUERY B-datetime_date I-datetime_date B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+match QUERY B-name I-name I-name I-name O O O O
+music PLAY O O B-song I-song I-song I-song I-song I-song I-song
+message SEND O O O O B-name I-name
+video QUERY B-name I-name I-name I-name I-name I-name I-name I-name I-name
+message SENDCONTACTS O B-name I-name O O O O O B-receiver I-receiver
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword B-queryField I-queryField I-queryField O O O O
+app LAUNCH O O B-name I-name I-name I-name
+match QUERY B-category I-category O O O O O O O
+video QUERY O O O B-timeDescr I-timeDescr O B-name I-name I-name I-name
+video QUERY B-name I-name I-name O
+video QUERY B-name I-name I-name I-name I-name
+contacts CREATE O O O O O B-name I-name
+stock QUERY O O B-name I-name I-name I-name O O O
+poetry QUERY O O O O O O B-author I-author O O O
+riddle QUERY O O B-category I-category O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content B-target I-target O O O
+news PLAY O O O O
+map ROUTE B-startLoc_city I-startLoc_city B-startLoc_poi I-startLoc_poi I-startLoc_poi I-endLoc_poi O O O O O O
+news PLAY B-datetime_date I-datetime_date O O O B-category I-category O O O O
+cookbook QUERY O O O B-dishName I-dishName O
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O O
+riddle QUERY O O B-category I-category O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi O O
+tvchannel PLAY B-name I-name I-name I-name I-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name
+email LAUNCH O O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O
+novel QUERY O O O B-category I-category O O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+train QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+map POSITION B-location_poi I-location_poi I-location_poi I-location_poi O O O O
+website OPEN O O O O B-name I-name
+news PLAY O O O O O O
+translation TRANSLATION B-content B-target I-target O O O
+stock QUERY B-name I-name I-name I-name O O
+music PLAY O O O B-category I-category O O
+cookbook QUERY O B-ingredient I-ingredient I-ingredient O B-dishName I-dishName
+telephone DIAL O O B-name I-name I-name
+poetry QUERY O O O O O B-author I-author I-author O O O O
+health QUERY B-keyword I-keyword O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content B-target I-target O O O
+train QUERY O B-endLoc_city I-endLoc_city O O O O
+website OPEN O O B-name I-name O
+music PLAY O O O O B-song I-song O O O O
+website OPEN B-name I-name I-name I-name I-name O O
+health QUERY B-keyword I-keyword I-keyword O O O O
+poetry DEFAULT O O O O O O O
+email LAUNCH O O O O O O O
+app LAUNCH O O O O B-name I-name I-name
+poetry QUERY B-author I-author I-author I-author O O O O
+poetry QUERY O O O O B-author I-author I-author O O O
+cookbook QUERY B-dishName I-dishName O O O
+map POSITION B-location_city I-location_city B-location_poi I-location_poi I-location_poi I-location_poi O O O
+train QUERY B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+novel QUERY O O O O O O B-popularity I-popularity O O O
+stock QUERY B-name I-name I-name O O O O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+app LAUNCH O O B-name I-name I-name I-name O O O O O O O
+stock QUERY B-name I-name I-name I-name I-name I-name O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O
+cinemas QUERY O O O O O O O O O O O
+message SEND O O O O B-name I-name I-name O B-content I-content I-content
+telephone DIAL O O B-name I-name
+translation TRANSLATION B-content I-content O B-target I-target O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O
+stock QUERY O O B-name I-name O O
+cinemas QUERY O O O O O O O O O O O
+music PLAY O O O B-song I-song I-song I-song O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content B-target I-target O O O
+cookbook QUERY O O B-ingredient O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+email CREATE O O O O O O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName
+telephone DIAL O O O O B-name I-name
+cookbook QUERY B-dishName I-dishName O O O
+health QUERY B-keyword I-keyword O O O O O
+lottery NUMBER_QUERY O O O O B-name I-name I-name
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+telephone DIAL O O O O B-name I-name I-name
+cookbook QUERY B-ingredient I-ingredient O O O O
+video QUERY B-artist I-artist I-artist B-tag I-tag B-category I-category
+train QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+telephone DIAL O O O O B-name I-name I-name
+train QUERY O B-endLoc_city I-endLoc_city O O O
+bus QUERY O B-Src I-Src O B-Dest I-Dest O O O O
+poetry QUERY O O O O B-author I-author O O O O
+video QUERY O O B-name I-name I-name I-name I-name
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+message SEND O B-name I-name I-name O O O
+epg QUERY B-name I-name I-name I-name O O O O O O
+telephone DIAL O O B-name I-name O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O O
+map POSITION O O O O O B-location_area I-location_area O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O
+epg QUERY O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O O
+video QUERY B-name I-name I-name I-name I-name
+telephone DIAL O O B-name I-name I-name
+tvchannel PLAY O O O B-name I-name I-name I-name O O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName I-dishName O O O O
+translation TRANSLATION B-content I-content I-content B-target I-target O O O
+stock QUERY B-name I-name I-name I-name O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O
+video QUERY O O B-name I-name I-name I-name I-name I-name I-name I-name
+map ROUTE B-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+poetry QUERY O B-name I-name I-name O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+video QUERY B-name I-name I-name I-name I-name I-name I-name
+tvchannel PLAY B-name I-name I-name I-name I-name
+stock QUERY B-name I-name I-name I-name O O
+tvchannel PLAY B-name I-name I-name I-name I-name I-name
+video QUERY O O B-timeDescr I-timeDescr O O B-tag I-tag B-category I-category O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+music PLAY O B-artist I-artist I-artist O B-song I-song O
+bus QUERY B-Src I-Src O B-Dest I-Dest I-Dest O O O O
+train QUERY O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+message SEND O B-name I-name O O O
+cinemas QUERY B-theatre I-theatre I-theatre I-theatre I-theatre I-theatre O O O O O O O
+video QUERY O B-name I-name
+epg QUERY O O B-name I-name I-name I-name O O O O O O
+cinemas QUERY O O O O O O
+riddle QUERY O O O O O O B-category I-category O
+train QUERY O O B-startDate_time I-startDate_time I-startDate_date O O B-startLoc_city I-startLoc_city O O O O O O O
+match QUERY B-category I-category O O O O O
+stock QUERY B-name I-name I-name I-name
+music PLAY O O O B-song I-song I-song I-song O O O O
+epg QUERY B-datetime_date I-datetime_date O O O O B-category I-category O
+train QUERY O B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY O B-dishName I-dishName I-dishName O
+novel QUERY B-name I-name
+health QUERY O O B-keyword I-keyword I-keyword O O O O O
+message SEND O B-name I-name I-name O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi
+bus QUERY O O O O O B-Dest I-Dest O
+email FORWARD O O O O O O O O O
+music PLAY O O O O O
+telephone DIAL O O O O B-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O
+flight QUERY O O B-startDate_date I-startDate_date I-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+video QUERY O O O O O B-name I-name I-name I-name
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+map POSITION B-location_city I-location_city I-location_city B-location_poi I-location_poi I-location_poi I-location_poi I-location_poi O O O
+cinemas QUERY O O O O O O O O O O
+app LAUNCH O O B-name I-name O O
+riddle QUERY O O B-category I-category O O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O O O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+music PLAY O O B-song I-song
+cookbook QUERY O O O O B-dishName I-dishName I-dishName O
+lottery NUMBER_QUERY O O B-name I-name I-name O O
+tvchannel PLAY B-name I-name I-name I-name I-name
+app LAUNCH O O B-name I-name O O
+stock QUERY B-name I-name I-name I-name O O
+health QUERY B-keyword I-keyword I-keyword I-keyword I-keyword O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+tvchannel PLAY B-name I-name I-name I-name I-name O B-category I-category O O O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content O B-target I-target O O O
+health QUERY B-keyword I-keyword I-keyword O O O O
+cookbook QUERY O B-dishName I-dishName I-dishName O O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+tvchannel PLAY O O O B-name I-name I-name I-name
+telephone DIAL O O B-name I-name O O O
+music PLAY O O O O O O O O
+health QUERY B-keyword I-keyword O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+poetry QUERY O O O O O B-dynasty O B-author I-author O O
+video QUERY B-name I-name I-name O O O
+poetry QUERY O O O B-author I-author I-author O O O O
+match QUERY O O O B-category I-category O O O O O O O O O O
+epg QUERY B-name I-name I-name O O O O O O O O
+translation TRANSLATION B-content I-content O O O B-target I-target
+video QUERY B-name I-name I-name I-name I-name I-name
+poetry QUERY O O O O O O O B-author I-author I-author O B-name I-name I-name O
+cookbook QUERY B-dishName I-dishName O O O O O
+news PLAY O O O O O O
+video QUERY O O B-popularity I-popularity O B-category I-category I-category O O O
+poetry QUERY B-author I-author I-author O B-name I-name O
+novel QUERY O O O B-category I-category I-category I-category O O
+train QUERY B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O O
+website OPEN O O B-name I-name I-name O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O
+cookbook QUERY O O O O B-dishName I-dishName I-dishName O O O O
+riddle QUERY O O O B-category I-category O O O
+bus QUERY B-Src I-Src O O B-Dest I-Dest O O O O
+video QUERY O O O O O B-timeDescr I-timeDescr O B-popularity I-popularity B-category I-category O O O O
+telephone DIAL O B-name I-name O O O
+map POSITION O O O O O B-location_poi I-location_poi I-location_poi
+music PLAY O O O O O B-song I-song I-song
+novel QUERY O O B-popularity I-popularity O O O O O O
+riddle QUERY O O O O B-category I-category O O
+train QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+website OPEN B-name I-name I-name O O
+map ROUTE O B-endLoc_poi I-endLoc_poi O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O
+poetry QUERY O O B-name I-name I-name O O O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+stock QUERY O O B-name I-name I-name O O O
+lottery NUMBER_QUERY O B-absIssue O B-category I-category B-name I-name I-name
+video QUERY B-timeDescr I-timeDescr O O O B-scoreDescr I-scoreDescr O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O O O O
+novel QUERY B-category I-category I-category I-category O O B-name I-name I-name I-name I-name
+app LAUNCH B-name I-name I-name I-name
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+epg QUERY B-datetime_date I-datetime_date B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O B-category I-category I-category
+riddle QUERY O O O B-category I-category O O O O O O
+message SEND O O O O B-name I-name
+translation TRANSLATION O O B-content I-content I-content I-content
+video QUERY B-name I-name I-name I-name
+map ROUTE O B-endLoc_city I-endLoc_city O O O O O
+video QUERY B-resolution I-resolution B-tag I-tag B-category I-category
+cookbook QUERY O O O O B-dishName O
+flight QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+message SEND O O O O B-name I-name O O B-content I-content I-content I-content I-content I-content I-content I-content I-content O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O O O O O
+cookbook QUERY O O O B-ingredient I-ingredient O
+music PLAY O O O B-song I-song O O O O
+bus QUERY O B-Src I-Src O B-Dest I-Dest O O O O
+tvchannel PLAY B-name I-name I-name I-name I-name
+riddle QUERY O O B-category I-category O O
+cookbook QUERY O O O O O O O O B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O O O O O O
+email REPLY O O O O O O O O
+message SEND O B-name I-name O O O B-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content
+news PLAY B-datetime_date I-datetime_date O O O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver
+novel QUERY O O O B-category I-category I-category I-category O O
+flight QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+news PLAY O O O O O B-datetime_date I-datetime_date O O O O
+bus QUERY O B-Src I-Src O O O O B-Dest I-Dest O O O
+poetry QUERY O O B-dynasty O O O O O
+match QUERY B-category I-category O O O O O B-datetime_date I-datetime_date O O
+video QUERY O O O B-tag I-tag
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName I-dishName I-dishName O
+match QUERY B-category I-category O O B-type I-type O O O
+email REPLY O O O O O O O O
+poetry DEFAULT O O O O O O O
+poetry QUERY O O O B-dynasty O O O
+music PLAY O O O O O O B-song I-song I-song I-song O O O O
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O O O O O O O O O
+message SEND O O O O B-name I-name O B-headNum O O O B-content I-content I-content I-content I-content I-content I-content
+stock QUERY B-name I-name I-name I-name O O
+tvchannel PLAY B-resolution I-resolution B-name I-name I-name I-name
+music PLAY O O O B-song I-song I-song I-song I-song
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+health QUERY B-keyword I-keyword I-keyword O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O O O O
+flight QUERY O O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+video QUERY B-name I-name I-name I-name
+epg QUERY O B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name O O
+video QUERY B-tag I-tag B-category I-category
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O O O
+cinemas QUERY O O O O O O O O
+news PLAY O O O B-category I-category O O O O
+poetry QUERY O O B-dynasty O O
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+email REPLY O O O O O O O O
+epg QUERY O O O O O O O B-name I-name O
+news PLAY O O O O O O
+cookbook QUERY O O B-dishName I-dishName O
+cookbook QUERY O O O O B-dishName I-dishName I-dishName O O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O
+translation TRANSLATION O O B-content I-content I-content
+translation TRANSLATION B-content I-content O B-target I-target O O O
+message SEND O O O O B-name I-name I-name
+cookbook QUERY O O B-ingredient I-ingredient O O O O
+cookbook QUERY O B-dishName I-dishName I-dishName O O O O
+news PLAY B-datetime_date I-datetime_date B-location_city I-location_city O O O
+message SEND O B-name I-name I-name O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date B-datetime_time I-datetime_time I-datetime_time I-datetime_time I-datetime_time I-datetime_time O O O B-name I-name I-name I-name I-name I-name I-name
+flight QUERY O O O O O B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O
+telephone DIAL O O O B-name I-name I-name
+health QUERY O O O O O O B-keyword I-keyword I-keyword I-keyword O O O O O
+riddle QUERY O O O O B-category I-category O O
+video QUERY B-artist I-artist I-artist I-artist O B-tag I-tag B-category I-category I-category
+video QUERY O O B-name I-name
+stock QUERY O O O B-name I-name I-name I-name O O O
+health QUERY B-keyword I-keyword I-keyword O
+flight QUERY O O O O O B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+message SEND O B-name I-name I-name O O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName O
+cookbook QUERY O O O O O O O O O O B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O O O O O
+cinemas QUERY O O B-film I-film I-film O O O
+bus QUERY O B-Src I-Src O B-Dest I-Dest O O O O
+map ROUTE O B-startLoc_poi I-startLoc_poi I-startLoc_poi I-startLoc_poi I-startLoc_poi O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi
+website OPEN O O O O O B-name I-name I-name
+app LAUNCH O O B-name I-name I-name I-name
+cookbook QUERY O B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+news PLAY O O O B-location_city I-location_city O O O
+flight QUERY O B-endLoc_city I-endLoc_city O O O O
+website OPEN O B-name I-name I-name
+poetry QUERY O O B-name I-name I-name O
+message SEND O O O O B-name I-name O B-content I-content I-content I-content I-content I-content I-content I-content I-content
+news PLAY B-keyword I-keyword I-keyword O O
+video QUERY B-datetime_date I-datetime_date O B-tag I-tag B-category I-category I-category
+lottery NUMBER_QUERY B-name I-name I-name O O O O O
+epg QUERY O O O O O O O O O O B-name I-name I-name I-name I-name
+video QUERY O O B-decade I-decade I-decade B-payment I-payment O B-tag I-tag B-category I-category
+cookbook QUERY O O O B-dishName I-dishName O
+cinemas QUERY O O O O O O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content B-target I-target O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O
+train QUERY O O O O B-startLoc_area I-startLoc_area O B-endLoc_city I-endLoc_city O O O O
+health QUERY B-keyword I-keyword I-keyword
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+video QUERY B-name I-name I-name I-name
+music PLAY O O O O B-song I-song
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+epg QUERY O O O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date I-datetime_date O O B-name I-name I-name I-name I-name O
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+message SEND O B-name I-name I-name O O O B-content I-content I-content I-content I-content I-content I-content
+riddle QUERY O O O B-category I-category O O O O
+message SEND O B-name I-name I-name O O O
+cinemas QUERY O O O O O O O O O O
+poetry QUERY O O O O O O B-author I-author O O O O
+app QUERY O O B-name I-name
+telephone DIAL O O B-name I-name
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O O O
+video QUERY B-tag I-tag B-category
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date I-datetime_date I-datetime_date I-datetime_date O O O B-name I-name I-name I-name O
+poetry DEFAULT O O O O O O O O
+bus QUERY O B-Src I-Src O O O O B-Dest I-Dest O O O
+music PLAY O O O O O B-song I-song I-song I-song I-song
+translation TRANSLATION O O B-content I-content I-content I-content
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+epg QUERY B-datetime_time I-datetime_time O O O O O O O
+message SEND O B-name I-name O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+app LAUNCH O O O O O O B-name I-name I-name I-name O O O O O O
+website OPEN O O B-name I-name I-name I-name I-name I-name
+match QUERY B-category I-category O O O O O O O O
+video QUERY B-name I-name I-name I-name I-name B-category I-category I-category
+tvchannel PLAY O B-name I-name I-name I-name
+epg QUERY O O O O O O O B-name I-name I-name I-name O
+video QUERY B-name I-name I-name I-name I-name
+music PLAY O O O O B-song I-song I-song I-song O
+health QUERY B-keyword I-keyword O
+cookbook QUERY B-ingredient I-ingredient O O O O O O O
+news PLAY O O O O O O O O O O O O
+train QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+poetry QUERY B-author I-author O O O
+novel QUERY O O O O O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+email REPLAY_ALL O O O O O O
+music PLAY O O O B-song I-song I-song I-song I-song I-song I-song O O O O
+flight QUERY O O B-startLoc_city I-startLoc_city O B-endLoc_area I-endLoc_area I-endLoc_area O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_time I-datetime_time O O O O O O O
+telephone DIAL O O O B-name I-name I-name
+music PLAY O O O O B-song I-song I-song I-song I-song I-song I-song O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O
+poetry QUERY O O O B-author I-author O O O
+riddle QUERY O O O O O O B-category I-category O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+news PLAY B-datetime_time I-datetime_time O O O B-keyword I-keyword O O O O O
+stock QUERY O O B-name I-name I-name I-name O O
+video QUERY B-name I-name I-name I-name I-name I-name
+website OPEN O O B-name I-name I-name I-name I-name I-name
+video QUERY O B-name I-name I-name
+website OPEN O B-name I-name I-name O O
+lottery NUMBER_QUERY O O O B-name I-name I-name O O O
+email CREATE O O O O O O O
+health QUERY B-keyword I-keyword O
+video QUERY B-name I-name I-name I-name I-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O O
+cinemas QUERY B-datetime_date I-datetime_date O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O
+cookbook QUERY B-ingredient I-ingredient O O O O O
+cookbook QUERY O B-ingredient I-ingredient O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+health QUERY B-keyword I-keyword
+map POSITION O O O O O O O O O O O
+video QUERY B-name I-name I-name I-name
+cinemas QUERY O O O O O O O O O O O O
+tvchannel PLAY B-resolution I-resolution B-name I-name I-name
+tvchannel PLAY B-name I-name I-name I-name I-name
+stock QUERY B-name I-name I-name I-name O O O O O O O
+train QUERY O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+epg QUERY O B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O
+website OPEN O O O B-name I-name I-name I-name I-name
+news PLAY O O O O O
+stock QUERY O O O O B-name I-name I-name I-name O O O O O
+health QUERY B-keyword I-keyword O
+epg LOOK_BACK O O B-datetime_date I-datetime_date I-datetime_date B-datetime_time I-datetime_time I-datetime_time I-datetime_time O B-tvchannel I-tvchannel I-tvchannel I-tvchannel
+video QUERY B-category I-category B-name I-name I-name I-name
+music PLAY O O O O O O O
+app LAUNCH B-name I-name I-name I-name I-name
+message SEND O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O O
+cookbook QUERY B-ingredient O O O
+video QUERY B-name I-name
+cookbook QUERY O O B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName I-dishName
+app LAUNCH B-name I-name I-name I-name
+poetry QUERY O O O O B-dynasty O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+telephone DIAL O O O O O O B-name I-name I-name
+email REPLY O O O O O O O O
+epg QUERY O O O B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-name I-name I-name I-name I-name
+poetry QUERY O O O O O B-name I-name I-name O
+video QUERY B-name I-name I-name I-name
+telephone DIAL O O B-name I-name
+video QUERY O O O B-artist I-artist I-artist O B-tag I-tag I-name I-name O O O O
+video QUERY B-category I-category B-name I-name I-name I-name
+stock QUERY B-name I-name I-name I-name B-yesterday I-yesterday O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+epg QUERY B-datetime_time I-datetime_time O O O O O B-category I-category I-category O
+riddle QUERY O O B-category I-category O O
+cookbook QUERY O O O O B-dishName I-dishName O O O O
+poetry QUERY B-keyword I-keyword I-keyword I-keyword I-keyword I-keyword I-keyword O B-queryField I-queryField I-queryField O O O O
+video QUERY O O B-name I-name I-name I-name
+health QUERY O O O O B-keyword I-keyword
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+poetry QUERY O O O O O O O B-dynasty O O O
+message SENDCONTACTS O B-name I-name I-name O O O O O B-receiver I-receiver I-receiver
+stock CLOSEPRICE_QUERY B-name I-name I-name I-name O B-yesterday I-yesterday O O O O O O
+epg QUERY O O O B-datetime_time I-datetime_time O O O O O B-area I-area B-category I-category
+poetry QUERY B-author I-author O B-name I-name I-name O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+video QUERY B-name I-name I-name I-name
+app LAUNCH O B-name I-name
+cookbook QUERY O B-ingredient I-ingredient O O O O
+video QUERY B-name I-name
+app LAUNCH B-name I-name I-name I-name
+train QUERY O O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+website OPEN O O B-name I-name I-name I-name I-name I-name I-name
+epg QUERY O O B-datetime_time I-datetime_time O O O B-category I-category O
+news PLAY O O O O
+riddle QUERY O O O O O B-category I-category O O O O
+music PLAY O B-song I-song I-song I-song O O
+epg QUERY O O B-category I-category I-category B-name I-name I-name I-name I-name I-name I-name O O O O O O O O
+match QUERY B-category I-category O O O O O O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+music PLAY O O O B-song I-song I-song I-song I-song
+website OPEN B-name I-name
+translation TRANSLATION B-content I-content O B-target I-target O O O
+website OPEN O O O O B-name I-name I-name
+cookbook QUERY B-ingredient I-ingredient O O O O
+app LAUNCH O B-name O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+stock QUERY O O B-name I-name I-name I-name O O
+bus QUERY O B-Src I-Src O B-Dest I-Dest O O O O
+email LAUNCH O O O O O O O
+video QUERY B-name I-name I-name I-name B-category I-category I-category
+news PLAY O O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel O O O O O
+video QUERY B-area I-area B-category I-category I-category I-category I-category B-name I-name
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content I-content B-target I-target O O O
+video QUERY O O B-artist I-artist I-artist B-artistRole I-artistRole O B-name I-name I-name
+news PLAY O O O O O O O O
+news PLAY O B-datetime_date I-datetime_date O O O O
+video QUERY B-name I-name I-name I-name
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+flight QUERY O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city I-endLoc_city O O O
+app LAUNCH O O O O B-name
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+video QUERY B-name I-name I-name I-name I-name
+map ROUTE O B-endLoc_city I-endLoc_city B-endLoc_poi I-endLoc_poi I-endLoc_poi
+train QUERY O O O O O O O
+map ROUTE B-startLoc_poi I-startLoc_poi I-startLoc_poi I-startLoc_poi O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O
+website OPEN O O O O O B-name I-name I-name
+app LAUNCH B-name I-name I-name I-name
+riddle QUERY O O O O B-category I-category O O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content O O O O
+riddle QUERY O O O O B-category I-category O O O
+translation TRANSLATION B-content I-content I-content I-content I-content I-content O O O B-target I-target
+riddle QUERY O O B-category I-category O O O O O
+map ROUTE O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi O O O
+app LAUNCH O O O B-name
+poetry QUERY O O O B-author I-author O O O O O O
+flight QUERY B-startDate_date I-startDate_date O B-endLoc_city I-endLoc_city O O O O
+message SEND O B-name I-name O O O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date B-datetime_time I-datetime_time O O O O O O
+tvchannel PLAY B-name I-name I-name I-name B-resolution I-resolution O O
+epg QUERY B-datetime_time I-datetime_time B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O B-name I-name I-name I-name I-name O
+cookbook QUERY O B-ingredient I-ingredient O O O O O O
+music PLAY O O O B-song I-song O O O O
+telephone DIAL O O O O O O B-name I-name I-name
+video QUERY B-name I-name I-name I-name
+novel QUERY O O O B-author I-author O O O
+tvchannel PLAY O O O O B-name I-name I-name I-name
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O
+music PLAY O O O O O
+website OPEN O O B-name I-name I-name I-name I-name I-name I-name I-name
+health QUERY B-keyword I-keyword O O O O
+email FORWARD O O O O O O O O
+poetry QUERY O O O O B-author I-author I-author I-author O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O O O O O
+radio LAUNCH O O B-name I-name I-name I-name I-name
+news PLAY O O O O B-category I-category O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+video QUERY B-name I-name I-name B-tag I-tag B-category
+poetry QUERY O O O B-dynasty O O O O O O
+tvchannel PLAY O O O O O B-name I-name I-name I-name I-name I-name
+video QUERY B-name I-name I-name I-name I-name
+video QUERY B-artist I-artist I-artist O B-tag I-tag B-category I-category
+cinemas QUERY B-theatre I-theatre I-theatre I-theatre I-theatre O O O O O O O O O O
+novel QUERY O O B-author I-author I-author O B-category I-category O O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O
+stock QUERY O O B-name I-name I-name I-name O O
+tvchannel PLAY O O O B-name I-name I-name I-name I-name I-name
+flight QUERY O O B-startDate_date I-startDate_date I-startDate_date I-startDate_date O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-ingredient I-ingredient I-ingredient O O O O
+website OPEN O O B-name I-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName O O
+cookbook QUERY O O O B-dishName I-dishName I-dishName I-dishName O
+music PLAY O O B-song I-song O O O
+video QUERY B-area I-area B-popularity I-popularity O B-tag I-tag B-category I-category
+tvchannel PLAY B-name I-name I-name I-name
+train QUERY B-startDate_date I-startDate_date B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+map ROUTE O O O B-endLoc_province I-endLoc_province I-endLoc_province B-endLoc_city I-endLoc_city I-endLoc_city B-endLoc_area I-endLoc_area I-endLoc_area I-endLoc_area
+translation TRANSLATION B-content I-content I-content O B-target I-target O O O
+epg QUERY B-datetime_time I-datetime_time O O O O O O B-category I-category I-category I-category I-category
+lottery NUMBER_QUERY B-name I-name I-name O O O O O O O O O
+health QUERY B-keyword I-keyword O O O
+music PLAY O O O B-artist I-artist I-artist O B-song I-song I-song I-song
+tvchannel PLAY B-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName
+music PLAY O O O O B-song I-song I-song
+poetry QUERY O O B-dynasty O O O
+cinemas QUERY O O O O O O O O O O O
+website OPEN B-name I-name I-name I-name
+video QUERY O O O O O O O O O B-category I-category
+cinemas QUERY O O O O O O O O O
+cookbook QUERY B-ingredient I-ingredient O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+message SEND O O O O
+video QUERY B-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O O
+news PLAY O O O O O O
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName
+telephone DIAL O O O O B-name I-name I-name
+radio LAUNCH O O O O O B-code I-code I-code B-name I-name I-name I-name I-name I-name I-name I-name
+map POSITION O O B-location_poi I-location_poi I-location_poi I-location_poi O O O
+music PLAY O O O O O
+app LAUNCH O O B-name I-name I-name I-name I-name I-name O O
+translation TRANSLATION B-content I-content O B-target I-target O O O
+video QUERY B-name I-name I-name I-name I-name
+train QUERY O B-endLoc_city I-endLoc_city O O O
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel O O O O O
+cookbook QUERY O O B-dishName I-dishName I-dishName I-dishName I-dishName O O O O O
+video QUERY B-name I-name I-name I-name I-name
+cookbook QUERY B-dishName I-dishName I-dishName O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O
+message SEND O O O O O O O O O
+news PLAY O O O O B-location_province I-location_province O O O
+message SEND O O O O B-name I-name I-name B-teleOperator I-teleOperator O O O B-content I-content I-content I-content I-content I-content I-content
+cookbook QUERY B-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O O O O
+app QUERY O O B-name I-name I-name
+translation TRANSLATION O O B-content I-content
+music PLAY O O B-song I-song
+train QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+telephone DIAL O O O O B-name I-name I-name
+video QUERY B-name I-name I-name I-name B-category I-category I-category
+translation TRANSLATION B-content I-content I-content I-content B-target I-target O O O
+website OPEN O O O O O O B-name I-name
+poetry QUERY O O B-dynasty O
+cookbook QUERY O O B-dishName I-dishName I-dishName O O O O O
+health QUERY B-keyword I-keyword O O O O
+health QUERY B-keyword I-keyword O O O O O
+map ROUTE O B-endLoc_area I-endLoc_area O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O
+cookbook QUERY O O O B-dishName I-dishName I-dishName O O O O
+tvchannel PLAY B-name I-name I-name
+cookbook QUERY O O O B-dishName I-dishName I-dishName O
+train QUERY B-startLoc_city I-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+news PLAY O O O O O O O O B-location_province I-location_province I-location_province I-location_city O O B-datetime_date I-datetime_date O O O O
+bus QUERY B-Src I-Src O B-Dest I-Dest O O O O O O O
+cookbook QUERY B-dishName I-dishName O
+tvchannel PLAY O O O O B-name I-name I-name I-name
+email REPLY O O O O O O
+cookbook QUERY O O O O B-dishName I-dishName I-dishName I-dishName O O O O
+cookbook QUERY B-dishName I-dishName I-dishName O
+cinemas QUERY O O O O O O O O O
+poetry QUERY B-author I-author O O O
+music PLAY O O B-song I-song I-song I-song
+flight QUERY O O O O O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName
+flight QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+poetry QUERY O O B-name I-name I-name O
+news PLAY B-datetime_date I-datetime_date O O
+epg QUERY B-tvchannel I-tvchannel I-tvchannel I-tvchannel B-datetime_date I-datetime_date O O O
+cookbook QUERY O O B-ingredient I-ingredient O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName O O O O
+news PLAY B-keyword I-keyword O O O O O O O
+cookbook QUERY B-dishName I-dishName I-dishName I-dishName I-dishName O O O O
+flight QUERY B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O O
+music PLAY O O O O B-song I-song I-song O
+app LAUNCH O O B-name I-name I-name I-name I-name I-name I-name
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content O B-target I-target O O O
+message SEND O O O O B-name I-name O O O O O
+video QUERY O O O O O B-name I-name
+cookbook QUERY O O O O O B-dishName I-dishName I-dishName I-dishName O O O O O
+music PLAY O O B-song I-song I-song I-song O
+cookbook QUERY O O O O B-ingredient I-ingredient O
+telephone DIAL O B-name I-name O O O
+poetry QUERY O O B-dynasty O O O O B-name I-name I-name O
+video QUERY B-area I-area O B-category I-category
+message SENDCONTACTS O B-name I-name O O O O O B-receiver I-receiver
+cookbook QUERY O O O B-ingredient I-ingredient O O O O
+cookbook QUERY O B-dishName I-dishName I-dishName I-dishName
+message SEND O O O O B-name I-name O B-content I-content I-content I-content I-content I-content I-content I-content
+cookbook QUERY B-dishName I-dishName O O O O
+video QUERY B-tag I-tag B-category
+music PLAY O O B-song I-song I-song
+video QUERY O O O B-category I-category
+poetry QUERY O O B-name I-name I-name O
+map POSITION B-location_city I-location_city O O O
+email SEND O O O O B-name I-name O B-content I-content I-content I-content I-content I-content I-content I-content
+translation TRANSLATION B-content I-content I-content I-content I-content I-content I-content O B-target I-target O
+cinemas QUERY O O O O O O B-location_city I-location_city O O O O O O O
+health QUERY B-keyword I-keyword I-keyword I-keyword I-keyword
+map ROUTE O O O B-endLoc_poi I-endLoc_poi I-endLoc_poi I-endLoc_poi
+cookbook QUERY O O O O B-dishName I-dishName O O O O
+poetry QUERY O O O O O O O O B-dynasty O O O
+novel QUERY O O O O O O O O O
+stock QUERY O O B-name I-name I-name I-name O O O
+website OPEN O O O
+flight QUERY O B-endLoc_city I-endLoc_city O O O O O
+train QUERY O B-startLoc_city I-startLoc_city O B-endLoc_city I-endLoc_city O O O
+website OPEN O O O O O
+translation TRANSLATION B-content I-content I-content B-target I-target O O O
+app LAUNCH O O B-name I-name I-name I-name I-name
+match QUERY B-category I-category O O O
+telephone DIAL O O O B-name I-name I-name
+message SENDCONTACTS O B-name I-name I-name O B-category I-category O O O O O B-receiver I-receiver
+tvchannel PLAY B-name I-name I-name
