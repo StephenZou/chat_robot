@@ -51,6 +51,19 @@ class EmotionDataset(Dataset):
         return {'domain': domain, 'intent': intent, 'slot': slot, "utt": utt, "mask": mask}
 
 
+class PinnedBatch:
+    def __init__(self, data):
+        self.data = data
+
+    def __getitem__(self, k):
+        return self.data[k]
+
+    def pin_memory(self):
+        for k in self.data.keys():
+            self.data[k] = self.data[k].pin_memory()
+        return self
+
+
 class PadBatchSeq:
     def __init__(self, pad_id):
         self.pad_id = pad_id
@@ -63,7 +76,7 @@ class PadBatchSeq:
         res['slot'] = torch.LongTensor([i['slot'] + [-1] * (max_len - len(i['utt'])) for i in batch])
         res['utt'] = torch.LongTensor([i['utt'] + [self.pad_id] * (max_len - len(i['utt'])) for i in batch])
         res['mask'] = torch.LongTensor([i['mask'] + [self.pad_id] * (max_len - len(i['mask'])) for i in batch])
-        return res
+        return PinnedBatch(res)
 
 
 if __name__ == '__main__':

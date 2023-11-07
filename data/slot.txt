@@ -1,3 +1,4 @@
+O
 B-endLoc_poi
 B-startDate_dateOrig
 I-song
@@ -83,7 +84,6 @@ I-awayName
 B-song
 B-subfocus
 I-category
-O
 I-datetime_date
 B-dynasty
 B-tag

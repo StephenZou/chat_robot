@@ -6,20 +6,26 @@ from BertForNLU import BertForNLU
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--bert_path', help='config file', default='/Volumes/ExtraDisk/pre_model/bert-base-chinese')
-parser.add_argument('--save_path', help='training file', default='/Volumes/ExtraDisk/code/github/chat_robot/train')
+parser.add_argument('--save_path', help='training file', default='/Volumes/ExtraDisk/code/github/chat_robot_sys'
+                                                                 '/chat_robot/train')
 parser.add_argument('--train_text_file', help='training text file', default='/Volumes/ExtraDisk/code/github'
-                                                                            '/chat_robot/data/train/text_train.txt')
+                                                                            '/chat_robot_sys/chat_robot/data/train'
+                                                                            '/text_train.txt')
 parser.add_argument('--train_label_file', help='training label file', default='/Volumes/ExtraDisk/code/github'
-                                                                              '/chat_robot/data/train/label_train.txt')
-parser.add_argument('--valid_text_file', help='valid text file', default='/Volumes/ExtraDisk/code/github/chat_robot/data'
-                                                                    '/val/text_val.txt')
-parser.add_argument('--valid_label_file', help='valid label file', default='/Volumes/ExtraDisk/code/github/chat_robot'
+                                                                              '/chat_robot_sys/chat_robot/data/train'
+                                                                              '/label_train.txt')
+parser.add_argument('--valid_text_file', help='valid text file',
+                    default='/Volumes/ExtraDisk/code/github/chat_robot_sys/chat_robot/data'
+                            '/val/text_val.txt')
+parser.add_argument('--valid_label_file', help='valid label file', default='/Volumes/ExtraDisk/code/github'
+                                                                           '/chat_robot_sys/chat_robot'
                                                                            '/data/val/label_val.txt')
-parser.add_argument('--intent_file', help='intent file', default='/Volumes/ExtraDisk/code/github/chat_robot/data'
-                                                                 '/intent.txt')
-parser.add_argument('--domain_file', help='domain file', default='/Volumes/ExtraDisk/code/github/chat_robot/data'
-                                                                 '/domain.txt')
-parser.add_argument('--slot_file', help='slot file', default='/Volumes/ExtraDisk/code/github/chat_robot/data/slot.txt')
+parser.add_argument('--intent_file', help='intent file', default='/Volumes/ExtraDisk/code/github/chat_robot_sys'
+                                                                 '/chat_robot/data/intent.txt')
+parser.add_argument('--domain_file', help='domain file', default='/Volumes/ExtraDisk/code/github/chat_robot_sys'
+                                                                 '/chat_robot/data/domain.txt')
+parser.add_argument('--slot_file', help='slot file', default='/Volumes/ExtraDisk/code/github/chat_robot_sys'
+                                                             '/chat_robot/data/slot.txt')
 
 parser.add_argument('--mode', help='run mode, train or predict', default='train')
 parser.add_argument('--lr', type=float, default=8e-6)
@@ -38,8 +44,7 @@ args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu:0')
 
-from transformers import BertForSequenceClassification, BertConfig, BertTokenizer
-from transformers import AdamW
+from transformers import BertConfig, BertTokenizer
 import dataset
 import utils
 import traceback
@@ -81,6 +86,8 @@ try:
     bert_config.num_intents = len(intent2index.keys())
     bert_config.num_domains = len(domain2index.keys())
     bert_config.num_slots = len(slot2index.keys())
+    bert_config.slot2index = slot2index
+    bert_config.device = device
     model = BertForNLU.from_pretrained(args.bert_path, config=bert_config)
 
     trainer = ClsTrainer(args, model, tokz, train_dataset, valid_dataset, log_path, logger, device)

@@ -40,10 +40,10 @@ def str2bool(v):
         raise argparse.ArgumentTypeError('Unsupported value encountered.')
 
 
-def load_config(config_file):
-    with open(config_file) as f:
-        config = json.load(f)
-        return AttrDict(config)
+# def load_config(config_file):
+#     with open(config_file) as f:
+#         config = json.load(f)
+#         return AttrDict(config)
 
 
 def set_seed(seed):

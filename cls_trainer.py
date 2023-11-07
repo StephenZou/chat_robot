@@ -1,3 +1,4 @@
+from CRF import CRF
 from optim import Adam, NoamOpt
 import torch
 import os
@@ -8,6 +9,9 @@ from dataset import PadBatchSeq
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
+
+START_TAG = "<START>"
+STOP_TAG = "<STOP>"
 
 
 class ClsTrainer:
@@ -25,11 +29,9 @@ class ClsTrainer:
         else:
             self.valid_writer = valid_writer
         self.model = model.to(device)
-        self.criterion = nn.CrossEntropyLoss().to(device)
-
+        # self.criterion = nn.CrossEntropyLoss().to(device)
         base_optimizer = Adam(self.model.parameters(), lr=self.config.lr, weight_decay=0.01)
         self.optimizer = NoamOpt(self.model.config.hidden_size, 0.1, self.config.lr_warmup, base_optimizer)
-
         self.train_dataloader = DataLoader(
             train_dataset, shuffle=True, batch_size=self.config.bs, num_workers=self.config.n_jobs, pin_memory=True,
             collate_fn=PadBatchSeq(self.tokz.pad_token_id))
@@ -57,16 +59,8 @@ class ClsTrainer:
                                           data['domain'].to(self.device), data['slot'].to(self.device)
             mask = data['mask'].to(self.device)
 
-            intent_logits, domain_logits, slot_logits = self.model(text, attention_mask=mask, return_dict=True)
-            seq_len = slots.size(1)
-            slots = slots.reshape(1, -1)
-            slots = slots[slots != -1]
-            batch_loss = (self.criterion(intent_logits, intent) + self.criterion(domain_logits, domain)
-                          + self.criterion(slot_logits, slots)/seq_len)/3
-            batch_intent_acc = (torch.argmax(intent_logits, dim=1) == intent).float().mean()
-            batch_domain_acc = (torch.argmax(domain_logits, dim=1) == domain).float().mean()
-            batch_slot_acc = (torch.argmax(slot_logits, dim=1) == slots).float().mean()
-
+            batch_loss, batch_intent_acc, batch_domain_acc, batch_slot_acc = self.model(text, slots, intent, domain,
+                                                                                        attention_mask=mask, return_dict=True)
             full_loss = batch_loss / self.config.batch_split
             full_loss.backward()
 
@@ -105,40 +99,24 @@ class ClsTrainer:
     def _eval_test(self, epoch, step):
         self.model.eval()
         with torch.no_grad():
-            all_intent_logits = []
-            all_intent = []
-            all_domain_logits = []
-            all_domain = []
-            all_slot_logits = []
-            all_slot = []
-            seq_len = 0
+            loss, intent_acc, domain_acc, slot_acc, count = 0, 0, 0, 0, 0
             for d_data in self.valid_dataloader:
                 text, intent, domain, slots = d_data['utt'].to(self.device), d_data['intent'].to(self.device), \
                                               d_data['domain'].to(self.device), d_data['slot'].to(self.device)
                 mask = d_data['mask'].to(self.device)
-                intent_logits, domain_logits, slot_logits = self.model(text, attention_mask=mask, return_dict=True)
-                all_intent.append(intent)
-                all_intent_logits.append(intent_logits)
-                all_domain.append(domain)
-                all_domain_logits.append(domain_logits)
-                seq_len += slots.size(1)
-                slots = slots.reshape(1, -1)
-                all_slot.append(slots)
-                all_slot_logits.append(slot_logits)
-
-            all_intent_logits = torch.cat(all_intent_logits, dim=0)
-            all_intent = torch.cat(all_intent, dim=0)
-            all_domain_logits = torch.cat(all_domain_logits, dim=0)
-            all_domain = torch.cat(all_domain, dim=0)
-            all_slot_logits = torch.cat(all_slot_logits, dim=0)
-            all_slot = torch.cat(all_slot, dim=1).squeeze()
-            all_slot = all_slot[all_slot != -1]
-            loss = (self.criterion(all_intent_logits, all_intent).float() +
-                    self.criterion(all_domain_logits, all_domain) +
-                    self.criterion(all_slot_logits, all_slot)/seq_len)/3
-            intent_acc = (torch.argmax(all_intent_logits, dim=1) == all_intent).float().mean()
-            domain_acc = (torch.argmax(all_domain_logits, dim=1) == all_domain).float().mean()
-            slot_acc = (torch.argmax(all_slot_logits, dim=1) == all_slot).float().mean()
+                # intent_logits, domain_logits, slot_logits = self.model(text, attention_mask=mask, return_dict=True)
+                batch_loss, batch_intent_acc, batch_domain_acc, batch_slot_acc = self.model(text, slots, intent, domain,
+                                                                                            attention_mask=mask,
+                                                                                            return_dict=True)
+                loss += batch_loss.item()
+                intent_acc += batch_intent_acc
+                domain_acc += batch_domain_acc
+                slot_acc += batch_slot_acc
+                count += 1
+            loss /= count
+            intent_acc /= count
+            domain_acc /= count
+            slot_acc /= count
 
             self.valid_writer.add_scalar('ind/loss', loss, step)
             self.valid_writer.add_scalar('ind/intent_acc', intent_acc, step)
